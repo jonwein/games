@@ -1,0 +1,3 @@
+# GitHub Pages publishes this repo at jonwein.com/games. The iOS app in ios/ isn't part of the site.
+exclude:
+  - ios
