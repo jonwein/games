@@ -54,6 +54,7 @@ struct GameBrowser: View {
             page.onCapture = handle
             page.start()
         }
+        .onDisappear { page.close() }
         .sheet(item: $passOn) { shared in
             ShareSheet(text: shared.text)
                 .presentationDetents([.medium, .large])
@@ -63,7 +64,7 @@ struct GameBrowser: View {
     @ToolbarContentBuilder
     private var toolbar: some ToolbarContent {
         ToolbarItem(placement: .topBarLeading) {
-            Button("Done") { dismiss() }
+            Button("Done", action: close)
                 .fontWeight(.semibold)
         }
         ToolbarItemGroup(placement: .topBarTrailing) {
@@ -92,12 +93,18 @@ struct GameBrowser: View {
         }
     }
 
+    /// Quiet the game as it slides away. It's unloaded once it's gone.
+    private func close() {
+        page.silence()
+        dismiss()
+    }
+
     private func handle(_ capture: GamePage.Capture) {
         guard !finished else { return }
         if Matching.looksLikeResult(capture.text) {
             finished = true
             onResult(capture.text)
-            dismiss()
+            close()
         } else if capture.kind == .share {
             // Not a result, like a link to the game: share it the usual way.
             passOn = SharedText(text: capture.text)
@@ -153,6 +160,23 @@ final class GamePage {
     }
 
     func goBack() { webView.goBack() }
+
+    /// Stops any music or video right away.
+    func silence() {
+        guard started else { return }
+        webView.pauseAllMediaPlayback(completionHandler: nil)
+        webView.setAllMediaPlaybackSuspended(true, completionHandler: nil)
+    }
+
+    /// The game has closed: unload it, so nothing in it (music, timers) carries on. This also lets go of the
+    /// browser's capture handler, which holds on to this page.
+    func close() {
+        onCapture = { _ in }
+        guard started else { return }
+        silence()
+        webView.stopLoading()
+        webView.loadHTMLString("", baseURL: nil)
+    }
 
     fileprivate func received(_ capture: Capture) { onCapture(capture) }
 
