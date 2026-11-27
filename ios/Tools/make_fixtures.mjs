@@ -32,7 +32,7 @@ const page = new Function(
   "document", "window", "navigator", "localStorage", "sessionStorage",
   script + `
   return {
-    matcher, headLine, findLink, titleOf, guessGame, looksLikeResult, stripLinks, nameFromUrl, normalizeUrl, mentioned, handleText, today,
+    matcher, headLine, findLink, titleOf, guessGame, looksLikeResult, stripLinks, sharedTime, inMessage, nameFromUrl, normalizeUrl, mentioned, handleText, today,
     DEFAULT_GAMES,
     reset(g, s, opened) { games = g; state = s; lastOpened = opened; },
     hook(h) { add = h.add; addNew = h.addNew; pickGame = h.pickGame; toast = h.toast; },
@@ -88,6 +88,12 @@ const TEXTS = {
   accented: "Pokédoku 120 9/9\n🟩🟩🟩",
   unicodeSpace: "Daily Tens #121 ✅",
   plainUrl: "https://example.com/whatever",
+  maptap: "www.maptap.gg November 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871",
+  miniShared: "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t=275&c=abc&smid=na-share",
+  miniSharedSpaced: "  https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t=5\n",
+  crosswordShared: "https://nytimes.com/shared/v2/daily-xwd.html?t=3725&d=2026-11-27",
+  sharedNoTime: "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t=",
+  sharedNotNyt: "https://example.com/x?t=275",
   words: "hello world",
   empty: "",
   blank: "   \n  ",
@@ -113,6 +119,12 @@ function run({ games = DEFAULTS, results = {}, stale = [], lastOpened = null, te
   return result();
 }
 
+// How a result reads in the message, for a game with an alias, one with two words, and one results don't name.
+const MESSAGE_GAMES = [
+  ...DEFAULTS.filter((g) => g.id === "nytmini" || g.id === "dailytens"),
+  { id: "gmaptap", name: "Maptap", url: "https://maptap.gg/" },
+];
+
 // Per-text answers from the building blocks, with the starter games listed.
 page.reset(clone(DEFAULTS), { date: page.today(), results: {}, stale: [] }, null);
 const texts = Object.entries(TEXTS).map(([name, text]) => {
@@ -127,6 +139,8 @@ const texts = Object.entries(TEXTS).map(([name, text]) => {
     looksLikeResult: page.looksLikeResult(text),
     stripLinks: page.stripLinks(text),
     mentioned: page.mentioned(text).map((g) => g.id),
+    sharedTime: page.sharedTime(text),
+    inMessage: MESSAGE_GAMES.map((g) => page.inMessage(g, text)),
   };
 });
 
@@ -174,6 +188,7 @@ const scenarios = [
 const fixture = {
   generatedFrom: "index.html",
   defaults: DEFAULTS,
+  messageGames: MESSAGE_GAMES,
   texts,
   urls,
   matchers,
