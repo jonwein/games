@@ -16,8 +16,8 @@ let package = Package(
             name: "DailyGamesTests",
             dependencies: ["DailyGames"],
             path: "DailyGamesTests",
-            // The capture tests need UIKit; they run in Xcode. ParityTests finds the fixtures by path here.
-            exclude: ["CaptureTests.swift", "Fixtures"]
+            // The capture and touch tests need UIKit; they run in Xcode. ParityTests finds the fixtures by path here.
+            exclude: ["CaptureTests.swift", "TouchTests.swift", "Fixtures"]
         ),
     ]
 )

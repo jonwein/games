@@ -23,7 +23,9 @@ struct GameBrowser: View {
     var body: some View {
         NavigationStack {
             WebView(page: page)
-                .ignoresSafeArea(.container, edges: .bottom)
+                // The keyboard covers the page, as in Safari, rather than squeezing it. Games read a page
+                // that's wider than it's tall as landscape, and Songless then asks you to rotate the phone.
+                .ignoresSafeArea(edges: .bottom)
                 .overlay(alignment: .top) {
                     if page.isLoading {
                         ProgressView(value: page.progress)
@@ -164,12 +166,11 @@ final class GamePage {
 
     fileprivate func startedLoading() { failure = nil }
 
-    private static let captureScript: String = {
-        guard let url = Bundle.main.url(forResource: "Capture", withExtension: "js"),
-              let source = try? String(contentsOf: url, encoding: .utf8)
-        else { return "" }
-        return source
-    }()
+    /// Capture.js catches results. Touch.js stops quick taps from zooming the page or selecting text.
+    private static let scripts: [String] = ["Capture", "Touch"].compactMap { name in
+        guard let url = Bundle.main.url(forResource: name, withExtension: "js") else { return nil }
+        return try? String(contentsOf: url, encoding: .utf8)
+    }
 
     private func makeWebView() -> WKWebView {
         let config = WKWebViewConfiguration()
@@ -177,9 +178,11 @@ final class GamePage {
         // Look like Safari, so games treat the page as they would there.
         let major = ProcessInfo.processInfo.operatingSystemVersion.majorVersion
         config.applicationNameForUserAgent = "Version/\(major).0 Mobile/15E148 Safari/604.1"
-        config.userContentController.addUserScript(
-            WKUserScript(source: Self.captureScript, injectionTime: .atDocumentStart, forMainFrameOnly: false)
-        )
+        for source in Self.scripts {
+            config.userContentController.addUserScript(
+                WKUserScript(source: source, injectionTime: .atDocumentStart, forMainFrameOnly: false)
+            )
+        }
         config.userContentController.add(delegate, name: "dailyGames")
 
         let webView = WKWebView(frame: .zero, configuration: config)

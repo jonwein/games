@@ -10,6 +10,7 @@
 		0E4BFA8EE1313E354F210F6D /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8649FE00DFA3C348C4EDD9 /* Sheets.swift */; };
 		1BA9F1D88CE0E43E34A100EB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF64C5625FD0AF7164EFA100 /* Store.swift */; };
 		2623738F75433B8D14E36D61 /* GameBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D540A982995BC09C9CE32 /* GameBrowser.swift */; };
+		30A145BA171E0A1989734268 /* Touch.js in Resources */ = {isa = PBXBuildFile; fileRef = A18EAFEBADE8405D300C2B57 /* Touch.js */; };
 		4F634C8D9C866433080575B7 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2434754B5C892C027A4ABE /* StoreTests.swift */; };
 		640B0041A8246C9F33BCC264 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A6632B1574244DC997F89 /* Theme.swift */; };
 		6549313370FE9C40977ED747 /* PlayFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026E9F11ABFA57ED733C9CD /* PlayFlowTests.swift */; };
@@ -21,6 +22,7 @@
 		A44932920E48FA0F1A9151B6 /* ParityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */; };
 		BF6E9E4C24C1DFB1445AEA48 /* Capture.js in Resources */ = {isa = PBXBuildFile; fileRef = 190F8E567FA875C6915C7E2A /* Capture.js */; };
 		CA618BB6E39E3D84581BA022 /* PasteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63248D24CB9694070E294BC /* PasteControl.swift */; };
+		CC068F304046733401250F66 /* TouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD82C578F16E14FEB8C187 /* TouchTests.swift */; };
 		CD2532C77A4AB90A0B0AAE50 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9B71A82F461BF33280A35 /* Game.swift */; };
 		D3D7C7DDAF74CBB2DB74FF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B66FF530493D4FE73C1004 /* Assets.xcassets */; };
 		FEC071A2627B4959479E3F2A /* CaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACC369D22C6323A00C95AB /* CaptureTests.swift */; };
@@ -49,6 +51,7 @@
 		190F8E567FA875C6915C7E2A /* Capture.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Capture.js; sourceTree = "<group>"; };
 		19B9B71A82F461BF33280A35 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		29573D5F9DB2BD59501CCAAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DFD82C578F16E14FEB8C187 /* TouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTests.swift; sourceTree = "<group>"; };
 		31ACC369D22C6323A00C95AB /* CaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTests.swift; sourceTree = "<group>"; };
 		349D6E2886B48E86866DCF54 /* DailyGames.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DailyGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0A6632B1574244DC997F89 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		8CF340B022301C58FC31EE7C /* DailyGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGamesApp.swift; sourceTree = "<group>"; };
 		927D540A982995BC09C9CE32 /* GameBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrowser.swift; sourceTree = "<group>"; };
 		9E0977E6B39E8423324EF4B2 /* DailyGamesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DailyGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18EAFEBADE8405D300C2B57 /* Touch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Touch.js; sourceTree = "<group>"; };
 		B503A284FA3FC154EC45C12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParityTests.swift; sourceTree = "<group>"; };
 		D5680DF58312DE33A308F950 /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				02B66FF530493D4FE73C1004 /* Assets.xcassets */,
 				190F8E567FA875C6915C7E2A /* Capture.js */,
+				A18EAFEBADE8405D300C2B57 /* Touch.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 				31ACC369D22C6323A00C95AB /* CaptureTests.swift */,
 				BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */,
 				FB2434754B5C892C027A4ABE /* StoreTests.swift */,
+				2DFD82C578F16E14FEB8C187 /* TouchTests.swift */,
 				90D3F022426D7F46965A1D98 /* Fixtures */,
 			);
 			path = DailyGamesTests;
@@ -277,6 +283,7 @@
 			files = (
 				D3D7C7DDAF74CBB2DB74FF52 /* Assets.xcassets in Resources */,
 				BF6E9E4C24C1DFB1445AEA48 /* Capture.js in Resources */,
+				30A145BA171E0A1989734268 /* Touch.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +330,7 @@
 				FEC071A2627B4959479E3F2A /* CaptureTests.swift in Sources */,
 				A44932920E48FA0F1A9151B6 /* ParityTests.swift in Sources */,
 				4F634C8D9C866433080575B7 /* StoreTests.swift in Sources */,
+				CC068F304046733401250F66 /* TouchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
