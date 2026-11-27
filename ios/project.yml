@@ -1,0 +1,80 @@
+name: DailyGames
+
+options:
+  bundleIdPrefix: com.jonwein
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # Apple Developer Team ID. Change it (and the bundle IDs) to build under another team.
+    DEVELOPMENT_TEAM: 9S7P8G455A
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  DailyGames:
+    type: application
+    platform: iOS
+    sources:
+      - path: DailyGames
+    info:
+      path: DailyGames/Info.plist
+      properties:
+        CFBundleDisplayName: Daily Games
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        ITSAppUsesNonExemptEncryption: false
+        # Games open in the app's own browser. A few might still be served over plain http.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoadsInWebContent: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jonwein.dailygames
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+    scheme:
+      testTargets:
+        - DailyGamesTests
+        - DailyGamesUITests
+      gatherCoverageData: false
+
+  DailyGamesTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: DailyGamesTests
+    dependencies:
+      - target: DailyGames
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.jonwein.dailygames.tests
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+
+  DailyGamesUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: DailyGamesUITests
+    dependencies:
+      - target: DailyGames
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.jonwein.dailygames.uitests
+        TEST_TARGET_NAME: DailyGames

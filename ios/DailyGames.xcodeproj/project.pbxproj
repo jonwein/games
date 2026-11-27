@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4BFA8EE1313E354F210F6D /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8649FE00DFA3C348C4EDD9 /* Sheets.swift */; };
+		1BA9F1D88CE0E43E34A100EB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF64C5625FD0AF7164EFA100 /* Store.swift */; };
+		2623738F75433B8D14E36D61 /* GameBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D540A982995BC09C9CE32 /* GameBrowser.swift */; };
+		4F634C8D9C866433080575B7 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2434754B5C892C027A4ABE /* StoreTests.swift */; };
+		640B0041A8246C9F33BCC264 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A6632B1574244DC997F89 /* Theme.swift */; };
+		6549313370FE9C40977ED747 /* PlayFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026E9F11ABFA57ED733C9CD /* PlayFlowTests.swift */; };
+		68B833E390718AD50842688A /* parity.json in Resources */ = {isa = PBXBuildFile; fileRef = 643C11E6282C4DDB5B19E2F1 /* parity.json */; };
+		7E44EF64648456C3178FB58C /* DailyGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF340B022301C58FC31EE7C /* DailyGamesApp.swift */; };
+		9A7414BA59C18B4531734E5E /* JS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD922EA9197D323A2FE204B /* JS.swift */; };
+		9A7D43D3022756FA33CBFFB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29573D5F9DB2BD59501CCAAD /* ContentView.swift */; };
+		A3BD0F496045CEB874D27E0C /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5680DF58312DE33A308F950 /* Matching.swift */; };
+		A44932920E48FA0F1A9151B6 /* ParityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */; };
+		BF6E9E4C24C1DFB1445AEA48 /* Capture.js in Resources */ = {isa = PBXBuildFile; fileRef = 190F8E567FA875C6915C7E2A /* Capture.js */; };
+		CA618BB6E39E3D84581BA022 /* PasteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63248D24CB9694070E294BC /* PasteControl.swift */; };
+		CD2532C77A4AB90A0B0AAE50 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9B71A82F461BF33280A35 /* Game.swift */; };
+		D3D7C7DDAF74CBB2DB74FF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B66FF530493D4FE73C1004 /* Assets.xcassets */; };
+		FEC071A2627B4959479E3F2A /* CaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ACC369D22C6323A00C95AB /* CaptureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40529C14EF5E8429CEEC595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE2A5E26835C1ABAC01DDC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04A6342A3A00757AD1D73A7;
+			remoteInfo = DailyGames;
+		};
+		FDEF74AF69B36656975F07CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE2A5E26835C1ABAC01DDC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04A6342A3A00757AD1D73A7;
+			remoteInfo = DailyGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B66FF530493D4FE73C1004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DD922EA9197D323A2FE204B /* JS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JS.swift; sourceTree = "<group>"; };
+		190F8E567FA875C6915C7E2A /* Capture.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Capture.js; sourceTree = "<group>"; };
+		19B9B71A82F461BF33280A35 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		29573D5F9DB2BD59501CCAAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31ACC369D22C6323A00C95AB /* CaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureTests.swift; sourceTree = "<group>"; };
+		349D6E2886B48E86866DCF54 /* DailyGames.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DailyGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0A6632B1574244DC997F89 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3D8649FE00DFA3C348C4EDD9 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		62F2AACA4DC0BDFB8168321D /* DailyGamesUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DailyGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643C11E6282C4DDB5B19E2F1 /* parity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = parity.json; sourceTree = "<group>"; };
+		8CF340B022301C58FC31EE7C /* DailyGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGamesApp.swift; sourceTree = "<group>"; };
+		927D540A982995BC09C9CE32 /* GameBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrowser.swift; sourceTree = "<group>"; };
+		9E0977E6B39E8423324EF4B2 /* DailyGamesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DailyGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B503A284FA3FC154EC45C12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParityTests.swift; sourceTree = "<group>"; };
+		D5680DF58312DE33A308F950 /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
+		D63248D24CB9694070E294BC /* PasteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteControl.swift; sourceTree = "<group>"; };
+		E026E9F11ABFA57ED733C9CD /* PlayFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFlowTests.swift; sourceTree = "<group>"; };
+		FB2434754B5C892C027A4ABE /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
+		FF64C5625FD0AF7164EFA100 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		27BE2385B0C687D2E783FA88 /* DailyGamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E026E9F11ABFA57ED733C9CD /* PlayFlowTests.swift */,
+			);
+			path = DailyGamesUITests;
+			sourceTree = "<group>";
+		};
+		45714CF526E56C0ABFDE6068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349D6E2886B48E86866DCF54 /* DailyGames.app */,
+				9E0977E6B39E8423324EF4B2 /* DailyGamesTests.xctest */,
+				62F2AACA4DC0BDFB8168321D /* DailyGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D47202031B5B296438F2314 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02B66FF530493D4FE73C1004 /* Assets.xcassets */,
+				190F8E567FA875C6915C7E2A /* Capture.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71B15CF1E307B559D438DAC0 /* DailyGames */ = {
+			isa = PBXGroup;
+			children = (
+				B503A284FA3FC154EC45C12B /* Info.plist */,
+				8A8050C9065FD6985052C672 /* App */,
+				87569AD296935622CEDAA522 /* Model */,
+				6D47202031B5B296438F2314 /* Resources */,
+				A70ABBA3671101D93FEA6B1C /* Views */,
+			);
+			path = DailyGames;
+			sourceTree = "<group>";
+		};
+		76A0D9BEC81B2D1EF792D9D7 /* DailyGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				31ACC369D22C6323A00C95AB /* CaptureTests.swift */,
+				BD2B8FCBB0AB51AC482C89E3 /* ParityTests.swift */,
+				FB2434754B5C892C027A4ABE /* StoreTests.swift */,
+				90D3F022426D7F46965A1D98 /* Fixtures */,
+			);
+			path = DailyGamesTests;
+			sourceTree = "<group>";
+		};
+		7C1720F5E21B8219EE7D7E62 = {
+			isa = PBXGroup;
+			children = (
+				71B15CF1E307B559D438DAC0 /* DailyGames */,
+				76A0D9BEC81B2D1EF792D9D7 /* DailyGamesTests */,
+				27BE2385B0C687D2E783FA88 /* DailyGamesUITests */,
+				45714CF526E56C0ABFDE6068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87569AD296935622CEDAA522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19B9B71A82F461BF33280A35 /* Game.swift */,
+				0DD922EA9197D323A2FE204B /* JS.swift */,
+				D5680DF58312DE33A308F950 /* Matching.swift */,
+				FF64C5625FD0AF7164EFA100 /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A8050C9065FD6985052C672 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8CF340B022301C58FC31EE7C /* DailyGamesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90D3F022426D7F46965A1D98 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				643C11E6282C4DDB5B19E2F1 /* parity.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		A70ABBA3671101D93FEA6B1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29573D5F9DB2BD59501CCAAD /* ContentView.swift */,
+				927D540A982995BC09C9CE32 /* GameBrowser.swift */,
+				D63248D24CB9694070E294BC /* PasteControl.swift */,
+				3D8649FE00DFA3C348C4EDD9 /* Sheets.swift */,
+				3A0A6632B1574244DC997F89 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C592479BE262952C2752D9 /* DailyGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ABDCE97BB84F872D1F73B9 /* Build configuration list for PBXNativeTarget "DailyGamesUITests" */;
+			buildPhases = (
+				768420D883AFC7D1F5087364 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52522E864F6F371ABB012861 /* PBXTargetDependency */,
+			);
+			name = DailyGamesUITests;
+			packageProductDependencies = (
+			);
+			productName = DailyGamesUITests;
+			productReference = 62F2AACA4DC0BDFB8168321D /* DailyGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7FE9B852025C81ED775B0CB2 /* DailyGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947AC1C8CC760A145C19844D /* Build configuration list for PBXNativeTarget "DailyGamesTests" */;
+			buildPhases = (
+				A877A5F132DDA6D6DBE5A9FD /* Sources */,
+				38F17CD37147AC21955C4F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CDC4D6FDE8EA89C204B04C /* PBXTargetDependency */,
+			);
+			name = DailyGamesTests;
+			packageProductDependencies = (
+			);
+			productName = DailyGamesTests;
+			productReference = 9E0977E6B39E8423324EF4B2 /* DailyGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C04A6342A3A00757AD1D73A7 /* DailyGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFBFB8AA7350D4F1C69A6B9 /* Build configuration list for PBXNativeTarget "DailyGames" */;
+			buildPhases = (
+				1EF4C4AC4208411B36CF39EF /* Sources */,
+				333B949071CC940253B57BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyGames;
+			packageProductDependencies = (
+			);
+			productName = DailyGames;
+			productReference = 349D6E2886B48E86866DCF54 /* DailyGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE2A5E26835C1ABAC01DDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04C592479BE262952C2752D9 = {
+						DevelopmentTeam = 9S7P8G455A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C04A6342A3A00757AD1D73A7;
+					};
+					7FE9B852025C81ED775B0CB2 = {
+						DevelopmentTeam = 9S7P8G455A;
+						ProvisioningStyle = Automatic;
+					};
+					C04A6342A3A00757AD1D73A7 = {
+						DevelopmentTeam = 9S7P8G455A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7840986541995B192593732 /* Build configuration list for PBXProject "DailyGames" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7C1720F5E21B8219EE7D7E62;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45714CF526E56C0ABFDE6068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04A6342A3A00757AD1D73A7 /* DailyGames */,
+				7FE9B852025C81ED775B0CB2 /* DailyGamesTests */,
+				04C592479BE262952C2752D9 /* DailyGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333B949071CC940253B57BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7C7DDAF74CBB2DB74FF52 /* Assets.xcassets in Resources */,
+				BF6E9E4C24C1DFB1445AEA48 /* Capture.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F17CD37147AC21955C4F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B833E390718AD50842688A /* parity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF4C4AC4208411B36CF39EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7D43D3022756FA33CBFFB4 /* ContentView.swift in Sources */,
+				7E44EF64648456C3178FB58C /* DailyGamesApp.swift in Sources */,
+				CD2532C77A4AB90A0B0AAE50 /* Game.swift in Sources */,
+				2623738F75433B8D14E36D61 /* GameBrowser.swift in Sources */,
+				9A7414BA59C18B4531734E5E /* JS.swift in Sources */,
+				A3BD0F496045CEB874D27E0C /* Matching.swift in Sources */,
+				CA618BB6E39E3D84581BA022 /* PasteControl.swift in Sources */,
+				0E4BFA8EE1313E354F210F6D /* Sheets.swift in Sources */,
+				1BA9F1D88CE0E43E34A100EB /* Store.swift in Sources */,
+				640B0041A8246C9F33BCC264 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768420D883AFC7D1F5087364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549313370FE9C40977ED747 /* PlayFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A877A5F132DDA6D6DBE5A9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC071A2627B4959479E3F2A /* CaptureTests.swift in Sources */,
+				A44932920E48FA0F1A9151B6 /* ParityTests.swift in Sources */,
+				4F634C8D9C866433080575B7 /* StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26CDC4D6FDE8EA89C204B04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04A6342A3A00757AD1D73A7 /* DailyGames */;
+			targetProxy = A40529C14EF5E8429CEEC595 /* PBXContainerItemProxy */;
+		};
+		52522E864F6F371ABB012861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04A6342A3A00757AD1D73A7 /* DailyGames */;
+			targetProxy = FDEF74AF69B36656975F07CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C74DAAC5EBB934D690B5015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyGames;
+			};
+			name = Debug;
+		};
+		2A08134DB078C4BD8FDADD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyGames;
+			};
+			name = Release;
+		};
+		2E81059AB4E21B9909321A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A956A0094F6D1F14CADE6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ADCAA824E47D6D1164190739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames.tests;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyGames.app/DailyGames";
+			};
+			name = Debug;
+		};
+		B99BC6F1FAC30FBCADFC9319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9S7P8G455A;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C1C13CF56CBD861268FC8A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonwein.dailygames.tests;
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyGames.app/DailyGames";
+			};
+			name = Release;
+		};
+		D0F35F5C39BAFA2A8985E31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9S7P8G455A;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFBFB8AA7350D4F1C69A6B9 /* Build configuration list for PBXNativeTarget "DailyGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A956A0094F6D1F14CADE6DCB /* Debug */,
+				2E81059AB4E21B9909321A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		947AC1C8CC760A145C19844D /* Build configuration list for PBXNativeTarget "DailyGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCAA824E47D6D1164190739 /* Debug */,
+				C1C13CF56CBD861268FC8A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99ABDCE97BB84F872D1F73B9 /* Build configuration list for PBXNativeTarget "DailyGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C74DAAC5EBB934D690B5015 /* Debug */,
+				2A08134DB078C4BD8FDADD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7840986541995B192593732 /* Build configuration list for PBXProject "DailyGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F35F5C39BAFA2A8985E31D /* Debug */,
+				B99BC6F1FAC30FBCADFC9319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE2A5E26835C1ABAC01DDC6 /* Project object */;
+}

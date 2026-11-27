@@ -1,2 +1,6 @@
 idea.md
 .DS_Store
+xcuserdata/
+.build/
+*.xcresult
+.swiftpm/

@@ -1,0 +1,2991 @@
+{
+  "generatedFrom": "index.html",
+  "defaults": [
+    {
+      "id": "perceptle",
+      "name": "Perceptle",
+      "url": "https://perceptle.com"
+    },
+    {
+      "id": "dailytens",
+      "name": "Daily Tens",
+      "url": "https://dailytens.com"
+    },
+    {
+      "id": "songless",
+      "name": "Songless",
+      "url": "https://lessgames.com/songless"
+    },
+    {
+      "id": "spotle",
+      "name": "Spotle",
+      "url": "https://spotle.io"
+    },
+    {
+      "id": "krillion",
+      "name": "Krillion",
+      "url": "https://krillion.io"
+    },
+    {
+      "id": "nytmini",
+      "name": "NYT Mini",
+      "alias": "Mini",
+      "url": "https://www.nytimes.com/crosswords/game/mini"
+    }
+  ],
+  "texts": [
+    {
+      "name": "wordle",
+      "text": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
+      "headLine": "Wordle 1,621 4/6",
+      "findLink": null,
+      "titleOf": "Wordle",
+      "guessGame": {
+        "name": "Wordle",
+        "url": "https://www.nytimes.com/games/wordle/index.html"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "wordleCRLF",
+      "text": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
+      "headLine": "Wordle 1,621 3/6\r",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "connections",
+      "text": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
+      "headLine": "Connections",
+      "findLink": null,
+      "titleOf": "Connections",
+      "guessGame": {
+        "name": "Connections",
+        "url": "https://www.nytimes.com/games/connections"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
+      "mentioned": []
+    },
+    {
+      "name": "strands",
+      "text": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
+      "headLine": "Strands #262",
+      "findLink": null,
+      "titleOf": "Strands",
+      "guessGame": {
+        "name": "Strands",
+        "url": "https://www.nytimes.com/games/strands"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
+      "mentioned": []
+    },
+    {
+      "name": "mini",
+      "text": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!\nhttps://www.nytimes.com/badges/games/mini.html?d=2026-11-27&t=42&c=abc&smid=url-share",
+      "headLine": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!",
+      "findLink": "https://www.nytimes.com/badges/games/mini.html",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Mini",
+        "url": "https://www.nytimes.com/crosswords/game/mini"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!",
+      "mentioned": [
+        "nytmini"
+      ]
+    },
+    {
+      "name": "miniShort",
+      "text": "Mini 11/27 0:42 ⭐️",
+      "headLine": "Mini 11/27 0:42 ⭐️",
+      "findLink": null,
+      "titleOf": "Mini",
+      "guessGame": {
+        "name": "Mini",
+        "url": "https://www.nytimes.com/crosswords/game/mini"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Mini 11/27 0:42 ⭐️",
+      "mentioned": [
+        "nytmini"
+      ]
+    },
+    {
+      "name": "crossword",
+      "text": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!\nhttps://www.nytimes.com/badges/games/crossword.html?d=2026-11-27&t=754&smid=url-share",
+      "headLine": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!",
+      "findLink": "https://www.nytimes.com/badges/games/crossword.html",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Crossword",
+        "url": "https://www.nytimes.com/crosswords/game/daily"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!",
+      "mentioned": []
+    },
+    {
+      "name": "spotle",
+      "text": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io",
+      "headLine": "Spotle #800🎧",
+      "findLink": "https://spotle.io/",
+      "titleOf": "Spotle",
+      "guessGame": {
+        "name": "Spotle",
+        "url": "https://spotle.io/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Spotle #800🎧\n\n⬜⬜⬜🟩",
+      "mentioned": [
+        "spotle"
+      ]
+    },
+    {
+      "name": "spotleIo",
+      "text": "Spotle.io #800 ⬜🟩",
+      "headLine": "Spotle.io #800 ⬜🟩",
+      "findLink": "https://spotle.io/",
+      "titleOf": "Spotle",
+      "guessGame": {
+        "name": "Spotle",
+        "url": "https://spotle.io/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Spotle.io #800 ⬜🟩",
+      "mentioned": [
+        "spotle"
+      ]
+    },
+    {
+      "name": "spotle801",
+      "text": "Spotle #801🎧\n\n⬜🟩\n\nspotle.io",
+      "headLine": "Spotle #801🎧",
+      "findLink": "https://spotle.io/",
+      "titleOf": "Spotle",
+      "guessGame": {
+        "name": "Spotle",
+        "url": "https://spotle.io/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Spotle #801🎧\n\n⬜🟩",
+      "mentioned": [
+        "spotle"
+      ]
+    },
+    {
+      "name": "dailyTens",
+      "text": "DailyTens #120 🔟 7/10\nhttps://dailytens.com",
+      "headLine": "DailyTens #120 🔟 7/10",
+      "findLink": "https://dailytens.com/",
+      "titleOf": "DailyTens",
+      "guessGame": {
+        "name": "DailyTens",
+        "url": "https://dailytens.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "DailyTens #120 🔟 7/10",
+      "mentioned": [
+        "dailytens"
+      ]
+    },
+    {
+      "name": "songless",
+      "text": "Songless #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "headLine": "Songless #312",
+      "findLink": "https://lessgames.com/songless",
+      "titleOf": "Songless",
+      "guessGame": {
+        "name": "Songless",
+        "url": "https://lessgames.com/songless"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Songless #312\n🟥🟥🟩⬜⬜⬜",
+      "mentioned": [
+        "songless"
+      ]
+    },
+    {
+      "name": "songlessLinkOnly",
+      "text": "🎵 #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "headLine": "",
+      "findLink": "https://lessgames.com/songless",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Songless",
+        "url": "https://lessgames.com/songless"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "🎵 #312\n🟥🟥🟩⬜⬜⬜",
+      "mentioned": [
+        "songless"
+      ]
+    },
+    {
+      "name": "perceptle",
+      "text": "Perceptle #42 - A (87)\nhttps://perceptle.com",
+      "headLine": "Perceptle #42 - A (87)",
+      "findLink": "https://perceptle.com/",
+      "titleOf": "Perceptle",
+      "guessGame": {
+        "name": "Perceptle",
+        "url": "https://perceptle.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Perceptle #42 - A (87)",
+      "mentioned": [
+        "perceptle"
+      ]
+    },
+    {
+      "name": "krillion",
+      "text": "Krillion #95 🦐 4/6\nkrillion.io",
+      "headLine": "Krillion #95 🦐 4/6",
+      "findLink": "https://krillion.io/",
+      "titleOf": "Krillion",
+      "guessGame": {
+        "name": "Krillion",
+        "url": "https://krillion.io/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Krillion #95 🦐 4/6",
+      "mentioned": [
+        "krillion"
+      ]
+    },
+    {
+      "name": "bandle",
+      "text": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle\nhttps://bandle.app/",
+      "headLine": "Bandle #500 3/6",
+      "findLink": "https://bandle.app/",
+      "titleOf": "Bandle",
+      "guessGame": {
+        "name": "Bandle",
+        "url": "https://bandle.app/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle",
+      "mentioned": []
+    },
+    {
+      "name": "worldle",
+      "text": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉\n\nhttps://worldle.teuteuf.fr",
+      "headLine": "#Worldle #800 (27.11.2026) 3/6 (100%)",
+      "findLink": "https://worldle.teuteuf.fr/",
+      "titleOf": "Worldle",
+      "guessGame": {
+        "name": "Worldle",
+        "url": "https://worldle.teuteuf.fr/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉",
+      "mentioned": []
+    },
+    {
+      "name": "quordle",
+      "text": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\nm-w.com/games/quordle/\n⬜🟨⬜⬜🟩",
+      "headLine": "Daily Quordle 800",
+      "findLink": "https://m-w.com/games/quordle/",
+      "titleOf": "Daily Quordle",
+      "guessGame": {
+        "name": "Daily Quordle",
+        "url": "https://m-w.com/games/quordle/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩",
+      "mentioned": []
+    },
+    {
+      "name": "octordle",
+      "text": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
+      "headLine": "Daily Octordle #900",
+      "findLink": null,
+      "titleOf": "Daily Octordle",
+      "guessGame": {
+        "name": "Daily Octordle",
+        "url": "https://www.google.com/search?q=Daily%20Octordle%20game"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
+      "mentioned": []
+    },
+    {
+      "name": "waffle",
+      "text": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3\nwafflegame.net",
+      "headLine": "#waffle800 4/5",
+      "findLink": "https://wafflegame.net/",
+      "titleOf": "waffle800",
+      "guessGame": {
+        "name": "Waffle",
+        "url": "https://wafflegame.net/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3",
+      "mentioned": []
+    },
+    {
+      "name": "grid",
+      "text": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:\nhttps://www.immaculategrid.com/grid-300",
+      "headLine": "Immaculate Grid 300 8/9:",
+      "findLink": "https://www.immaculategrid.com/",
+      "titleOf": "Immaculate Grid",
+      "guessGame": {
+        "name": "Immaculate Grid",
+        "url": "https://www.immaculategrid.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:",
+      "mentioned": []
+    },
+    {
+      "name": "contexto",
+      "text": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
+      "headLine": "I played contexto.me #500 and got it in 32 guesses.",
+      "findLink": "https://contexto.me/",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Contexto",
+        "url": "https://contexto.me/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
+      "mentioned": []
+    },
+    {
+      "name": "timeguessr",
+      "text": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩\nhttps://timeguessr.com",
+      "headLine": "TimeGuessr #500 39,450/50,000",
+      "findLink": "https://timeguessr.com/",
+      "titleOf": "TimeGuessr",
+      "guessGame": {
+        "name": "TimeGuessr",
+        "url": "https://timeguessr.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "costcodle",
+      "text": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅\nhttps://costcodle.com",
+      "headLine": "Costcodle #300 3/6",
+      "findLink": "https://costcodle.com/",
+      "titleOf": "Costcodle",
+      "guessGame": {
+        "name": "Costcodle",
+        "url": "https://costcodle.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅",
+      "mentioned": []
+    },
+    {
+      "name": "framed",
+      "text": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛\n\nhttps://framed.wtf",
+      "headLine": "Framed #900",
+      "findLink": "https://framed.wtf/",
+      "titleOf": "Framed",
+      "guessGame": {
+        "name": "Framed",
+        "url": "https://framed.wtf/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛",
+      "mentioned": []
+    },
+    {
+      "name": "travle",
+      "text": "#travle #600 +2\n🟩🟩🟧✅\nhttps://travle.earth",
+      "headLine": "#travle #600 +2",
+      "findLink": "https://travle.earth/",
+      "titleOf": "travle",
+      "guessGame": {
+        "name": "Travle",
+        "url": "https://travle.earth/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "#travle #600 +2\n🟩🟩🟧✅",
+      "mentioned": []
+    },
+    {
+      "name": "globle",
+      "text": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\nhttps://globle-game.com\n#globle",
+      "headLine": "🌎 Nov 27, 2026 🌍",
+      "findLink": "https://globle-game.com/",
+      "titleOf": "Nov",
+      "guessGame": {
+        "name": "Globle",
+        "url": "https://globle-game.com/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle",
+      "mentioned": []
+    },
+    {
+      "name": "pips",
+      "text": "Pips #100 Hard\n🟪 0:45",
+      "headLine": "Pips #100 Hard",
+      "findLink": null,
+      "titleOf": "Pips",
+      "guessGame": {
+        "name": "Pips",
+        "url": "https://www.nytimes.com/games/pips"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Pips #100 Hard\n🟪 0:45",
+      "mentioned": []
+    },
+    {
+      "name": "zip",
+      "text": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢\nlnkd.in/zip.",
+      "headLine": "Zip #120 | 0:23 🏁",
+      "findLink": "https://lnkd.in/zip",
+      "titleOf": "Zip",
+      "guessGame": {
+        "name": "Zip",
+        "url": "https://lnkd.in/zip"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢",
+      "mentioned": []
+    },
+    {
+      "name": "queens",
+      "text": "Queens #300\n0:45 👑\nlnkd.in/queens.",
+      "headLine": "Queens #300",
+      "findLink": "https://lnkd.in/queens",
+      "titleOf": "Queens",
+      "guessGame": {
+        "name": "Queens",
+        "url": "https://lnkd.in/queens"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Queens #300\n0:45 👑",
+      "mentioned": []
+    },
+    {
+      "name": "chainle",
+      "text": "Chainle #12 🔗 3 links\nhttps://chainle.io",
+      "headLine": "Chainle #12 🔗 3 links",
+      "findLink": "https://chainle.io/",
+      "titleOf": "Chainle",
+      "guessGame": {
+        "name": "Chainle",
+        "url": "https://chainle.io/"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Chainle #12 🔗 3 links",
+      "mentioned": []
+    },
+    {
+      "name": "tradle",
+      "text": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩\nPlay Today's Game: https://oec.world/en/tradle",
+      "headLine": "#Tradle #900 2/6",
+      "findLink": "https://oec.world/en/tradle",
+      "titleOf": "Tradle",
+      "guessGame": {
+        "name": "Tradle",
+        "url": "https://oec.world/en/tradle"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "nerdle",
+      "text": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
+      "headLine": "nerdlegame 900 3/6",
+      "findLink": null,
+      "titleOf": "nerdlegame",
+      "guessGame": {
+        "name": "Nerdlegame",
+        "url": "https://www.google.com/search?q=Nerdlegame%20game"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "heardle",
+      "text": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜\n\nhttps://www.spotify.com/heardle?x=1",
+      "headLine": "#Heardle #500",
+      "findLink": "https://www.spotify.com/heardle",
+      "titleOf": "Heardle",
+      "guessGame": {
+        "name": "Heardle",
+        "url": "https://www.spotify.com/heardle"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜",
+      "mentioned": []
+    },
+    {
+      "name": "flagle",
+      "text": "I got today's Flagle in 2! 🇫🇷",
+      "headLine": "I got today's Flagle in 2! 🇫🇷",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "I got today's Flagle in 2! 🇫🇷",
+      "mentioned": []
+    },
+    {
+      "name": "filler",
+      "text": "Puzzle #12 solved! 🎉",
+      "headLine": "Puzzle #12 solved! 🎉",
+      "findLink": null,
+      "titleOf": "Puzzle",
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "Puzzle #12 solved! 🎉",
+      "mentioned": []
+    },
+    {
+      "name": "todays",
+      "text": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
+      "headLine": "Today's Dordle 3&5/7",
+      "findLink": null,
+      "titleOf": "Dordle",
+      "guessGame": {
+        "name": "Dordle",
+        "url": "https://www.google.com/search?q=Dordle%20game"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "dated",
+      "text": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
+      "headLine": "Nov 27 Bracket City 🏙️",
+      "findLink": null,
+      "titleOf": "Nov",
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
+      "mentioned": []
+    },
+    {
+      "name": "wwwLink",
+      "text": "Spellcheck 42\n✅✅❌\nwww.spellcheck.com/today",
+      "headLine": "Spellcheck 42",
+      "findLink": "https://www.spellcheck.com/today",
+      "titleOf": "Spellcheck",
+      "guessGame": {
+        "name": "Spellcheck",
+        "url": "https://www.spellcheck.com/today"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Spellcheck 42\n✅✅❌",
+      "mentioned": []
+    },
+    {
+      "name": "longTitle",
+      "text": "My Very Long Puzzle Name Here 3/6 🟩",
+      "headLine": "My Very Long Puzzle Name Here 3/6 🟩",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "My Very Long Puzzle Name Here 3/6 🟩",
+      "mentioned": []
+    },
+    {
+      "name": "accented",
+      "text": "Pokédoku 120 9/9\n🟩🟩🟩",
+      "headLine": "Pokédoku 120 9/9",
+      "findLink": null,
+      "titleOf": "Pokédoku",
+      "guessGame": {
+        "name": "Pokédoku",
+        "url": "https://www.google.com/search?q=Pok%C3%A9doku%20game"
+      },
+      "looksLikeResult": true,
+      "stripLinks": "Pokédoku 120 9/9\n🟩🟩🟩",
+      "mentioned": []
+    },
+    {
+      "name": "unicodeSpace",
+      "text": "Daily Tens #121 ✅",
+      "headLine": "Daily Tens #121 ✅",
+      "findLink": null,
+      "titleOf": "Daily",
+      "guessGame": null,
+      "looksLikeResult": true,
+      "stripLinks": "Daily Tens #121 ✅",
+      "mentioned": [
+        "dailytens"
+      ]
+    },
+    {
+      "name": "plainUrl",
+      "text": "https://example.com/whatever",
+      "headLine": "",
+      "findLink": "https://example.com/whatever",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Whatever",
+        "url": "https://example.com/whatever"
+      },
+      "looksLikeResult": false,
+      "stripLinks": "https://example.com/whatever",
+      "mentioned": []
+    },
+    {
+      "name": "words",
+      "text": "hello world",
+      "headLine": "hello world",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": false,
+      "stripLinks": "hello world",
+      "mentioned": []
+    },
+    {
+      "name": "empty",
+      "text": "",
+      "headLine": "",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": false,
+      "stripLinks": "",
+      "mentioned": []
+    },
+    {
+      "name": "blank",
+      "text": "   \n  ",
+      "headLine": "",
+      "findLink": null,
+      "titleOf": null,
+      "guessGame": null,
+      "looksLikeResult": false,
+      "stripLinks": "   \n  ",
+      "mentioned": []
+    }
+  ],
+  "urls": [
+    {
+      "input": "perceptle.com",
+      "normalizeUrl": "https://perceptle.com/",
+      "nameFromUrl": "Perceptle"
+    },
+    {
+      "input": "https://lessgames.com/songless",
+      "normalizeUrl": "https://lessgames.com/songless",
+      "nameFromUrl": "Songless"
+    },
+    {
+      "input": "globle-game.com/game",
+      "normalizeUrl": "https://globle-game.com/game",
+      "nameFromUrl": "Globle Game"
+    },
+    {
+      "input": "nytimes.com/games/wordle",
+      "normalizeUrl": "https://nytimes.com/games/wordle",
+      "nameFromUrl": "Wordle"
+    },
+    {
+      "input": "https://www.nytimes.com/games/wordle/index.html",
+      "normalizeUrl": "https://www.nytimes.com/games/wordle/index.html",
+      "nameFromUrl": "Wordle"
+    },
+    {
+      "input": "chainle.io",
+      "normalizeUrl": "https://chainle.io/",
+      "nameFromUrl": "Chainle"
+    },
+    {
+      "input": "localhost",
+      "normalizeUrl": null,
+      "nameFromUrl": null
+    },
+    {
+      "input": "  spotle.io  ",
+      "normalizeUrl": "https://spotle.io/",
+      "nameFromUrl": "Spotle"
+    },
+    {
+      "input": "HTTPS://Spotle.IO/Foo?x=1#y",
+      "normalizeUrl": "https://spotle.io/Foo?x=1#y",
+      "nameFromUrl": "Foo"
+    },
+    {
+      "input": "https://oec.world/en/tradle",
+      "normalizeUrl": "https://oec.world/en/tradle",
+      "nameFromUrl": "Tradle"
+    },
+    {
+      "input": "https://example.com/play/daily/123",
+      "normalizeUrl": "https://example.com/play/daily/123",
+      "nameFromUrl": "Example"
+    },
+    {
+      "input": "notaurl",
+      "normalizeUrl": null,
+      "nameFromUrl": null
+    },
+    {
+      "input": "https://a.co/my_game-name",
+      "normalizeUrl": "https://a.co/my_game-name",
+      "nameFromUrl": "My Game Name"
+    },
+    {
+      "input": "http://Example.com:80/x",
+      "normalizeUrl": "http://example.com/x",
+      "nameFromUrl": "X"
+    },
+    {
+      "input": "https://example.com:8443/puzzles/",
+      "normalizeUrl": "https://example.com:8443/puzzles/",
+      "nameFromUrl": "Example"
+    },
+    {
+      "input": "lessgames.com/songless/",
+      "normalizeUrl": "https://lessgames.com/songless/",
+      "nameFromUrl": "Songless"
+    },
+    {
+      "input": "https://www.immaculategrid.com/grid-300",
+      "normalizeUrl": "https://www.immaculategrid.com/grid-300",
+      "nameFromUrl": "Grid 300"
+    }
+  ],
+  "matchers": [
+    {
+      "name": "Wordle",
+      "text": "Wordless 3/6",
+      "matches": false
+    },
+    {
+      "name": "Wordle",
+      "text": "wordle 3/6",
+      "matches": true
+    },
+    {
+      "name": "Waffle",
+      "text": "#waffle800",
+      "matches": true
+    },
+    {
+      "name": "Daily Tens",
+      "text": "DailyTens #1",
+      "matches": true
+    },
+    {
+      "name": "Tens",
+      "text": "Daily Tens #1",
+      "matches": true
+    },
+    {
+      "name": "Mini",
+      "text": "Minis 3",
+      "matches": false
+    },
+    {
+      "name": "NYT Mini",
+      "text": "nyt  mini 0:31",
+      "matches": true
+    },
+    {
+      "name": "Spotle",
+      "text": "Spotle.io #800",
+      "matches": true
+    },
+    {
+      "name": "C++",
+      "text": "C++ 3/6",
+      "matches": true
+    },
+    {
+      "name": "Pokédoku",
+      "text": "POKÉDOKU 9/9",
+      "matches": true
+    },
+    {
+      "name": "Krillion",
+      "text": "krillion.io",
+      "matches": true
+    },
+    {
+      "name": "Mini",
+      "text": "Mini2",
+      "matches": true
+    },
+    {
+      "name": "Daily Tens",
+      "text": "Daily Tens",
+      "matches": true
+    },
+    {
+      "name": "Strands",
+      "text": "“Strands” #1",
+      "matches": true
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "starter:wordle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        }
+      }
+    },
+    {
+      "name": "starter:wordleCRLF",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        }
+      }
+    },
+    {
+      "name": "starter:connections",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        },
+        "guess": {
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      }
+    },
+    {
+      "name": "starter:strands",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Strands",
+          "url": "https://www.nytimes.com/games/strands"
+        },
+        "guess": {
+          "name": "Strands",
+          "url": "https://www.nytimes.com/games/strands"
+        }
+      }
+    },
+    {
+      "name": "starter:mini",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!\nhttps://www.nytimes.com/badges/games/mini.html?d=2026-11-27&t=42&c=abc&smid=url-share",
+      "outcome": {
+        "kind": "add",
+        "game": "nytmini"
+      }
+    },
+    {
+      "name": "starter:miniShort",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Mini 11/27 0:42 ⭐️",
+      "outcome": {
+        "kind": "add",
+        "game": "nytmini"
+      }
+    },
+    {
+      "name": "starter:crossword",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!\nhttps://www.nytimes.com/badges/games/crossword.html?d=2026-11-27&t=754&smid=url-share",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        },
+        "guess": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        }
+      }
+    },
+    {
+      "name": "starter:spotle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "add",
+        "game": "spotle"
+      }
+    },
+    {
+      "name": "starter:spotleIo",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle.io #800 ⬜🟩",
+      "outcome": {
+        "kind": "add",
+        "game": "spotle"
+      }
+    },
+    {
+      "name": "starter:spotle801",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #801🎧\n\n⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "add",
+        "game": "spotle"
+      }
+    },
+    {
+      "name": "starter:dailyTens",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "DailyTens #120 🔟 7/10\nhttps://dailytens.com",
+      "outcome": {
+        "kind": "add",
+        "game": "dailytens"
+      }
+    },
+    {
+      "name": "starter:songless",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Songless #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "outcome": {
+        "kind": "add",
+        "game": "songless"
+      }
+    },
+    {
+      "name": "starter:songlessLinkOnly",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "🎵 #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "outcome": {
+        "kind": "add",
+        "game": "songless"
+      }
+    },
+    {
+      "name": "starter:perceptle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Perceptle #42 - A (87)\nhttps://perceptle.com",
+      "outcome": {
+        "kind": "add",
+        "game": "perceptle"
+      }
+    },
+    {
+      "name": "starter:krillion",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Krillion #95 🦐 4/6\nkrillion.io",
+      "outcome": {
+        "kind": "add",
+        "game": "krillion"
+      }
+    },
+    {
+      "name": "starter:bandle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle\nhttps://bandle.app/",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Bandle",
+          "url": "https://bandle.app/"
+        },
+        "guess": {
+          "name": "Bandle",
+          "url": "https://bandle.app/"
+        }
+      }
+    },
+    {
+      "name": "starter:worldle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉\n\nhttps://worldle.teuteuf.fr",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        },
+        "guess": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        }
+      }
+    },
+    {
+      "name": "starter:quordle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\nm-w.com/games/quordle/\n⬜🟨⬜⬜🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Daily Quordle",
+          "url": "https://m-w.com/games/quordle/"
+        },
+        "guess": {
+          "name": "Daily Quordle",
+          "url": "https://m-w.com/games/quordle/"
+        }
+      }
+    },
+    {
+      "name": "starter:octordle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Daily Octordle",
+          "url": "https://www.google.com/search?q=Daily%20Octordle%20game"
+        },
+        "guess": {
+          "name": "Daily Octordle",
+          "url": "https://www.google.com/search?q=Daily%20Octordle%20game"
+        }
+      }
+    },
+    {
+      "name": "starter:waffle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3\nwafflegame.net",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Waffle",
+          "url": "https://wafflegame.net/"
+        },
+        "guess": {
+          "name": "Waffle",
+          "url": "https://wafflegame.net/"
+        }
+      }
+    },
+    {
+      "name": "starter:grid",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:\nhttps://www.immaculategrid.com/grid-300",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Immaculate Grid",
+          "url": "https://www.immaculategrid.com/"
+        },
+        "guess": {
+          "name": "Immaculate Grid",
+          "url": "https://www.immaculategrid.com/"
+        }
+      }
+    },
+    {
+      "name": "starter:contexto",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Contexto",
+          "url": "https://contexto.me/"
+        },
+        "guess": {
+          "name": "Contexto",
+          "url": "https://contexto.me/"
+        }
+      }
+    },
+    {
+      "name": "starter:timeguessr",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩\nhttps://timeguessr.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "TimeGuessr",
+          "url": "https://timeguessr.com/"
+        },
+        "guess": {
+          "name": "TimeGuessr",
+          "url": "https://timeguessr.com/"
+        }
+      }
+    },
+    {
+      "name": "starter:costcodle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅\nhttps://costcodle.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Costcodle",
+          "url": "https://costcodle.com/"
+        },
+        "guess": {
+          "name": "Costcodle",
+          "url": "https://costcodle.com/"
+        }
+      }
+    },
+    {
+      "name": "starter:framed",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛\n\nhttps://framed.wtf",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Framed",
+          "url": "https://framed.wtf/"
+        },
+        "guess": {
+          "name": "Framed",
+          "url": "https://framed.wtf/"
+        }
+      }
+    },
+    {
+      "name": "starter:travle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#travle #600 +2\n🟩🟩🟧✅\nhttps://travle.earth",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Travle",
+          "url": "https://travle.earth/"
+        },
+        "guess": {
+          "name": "Travle",
+          "url": "https://travle.earth/"
+        }
+      }
+    },
+    {
+      "name": "starter:globle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\nhttps://globle-game.com\n#globle",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Globle",
+          "url": "https://globle-game.com/"
+        },
+        "guess": {
+          "name": "Globle",
+          "url": "https://globle-game.com/"
+        }
+      }
+    },
+    {
+      "name": "starter:pips",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Pips #100 Hard\n🟪 0:45",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Pips",
+          "url": "https://www.nytimes.com/games/pips"
+        },
+        "guess": {
+          "name": "Pips",
+          "url": "https://www.nytimes.com/games/pips"
+        }
+      }
+    },
+    {
+      "name": "starter:zip",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢\nlnkd.in/zip.",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Zip",
+          "url": "https://lnkd.in/zip"
+        },
+        "guess": {
+          "name": "Zip",
+          "url": "https://lnkd.in/zip"
+        }
+      }
+    },
+    {
+      "name": "starter:queens",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Queens #300\n0:45 👑\nlnkd.in/queens.",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Queens",
+          "url": "https://lnkd.in/queens"
+        },
+        "guess": {
+          "name": "Queens",
+          "url": "https://lnkd.in/queens"
+        }
+      }
+    },
+    {
+      "name": "starter:chainle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Chainle #12 🔗 3 links\nhttps://chainle.io",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Chainle",
+          "url": "https://chainle.io/"
+        },
+        "guess": {
+          "name": "Chainle",
+          "url": "https://chainle.io/"
+        }
+      }
+    },
+    {
+      "name": "starter:tradle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩\nPlay Today's Game: https://oec.world/en/tradle",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Tradle",
+          "url": "https://oec.world/en/tradle"
+        },
+        "guess": {
+          "name": "Tradle",
+          "url": "https://oec.world/en/tradle"
+        }
+      }
+    },
+    {
+      "name": "starter:nerdle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Nerdlegame",
+          "url": "https://www.google.com/search?q=Nerdlegame%20game"
+        },
+        "guess": {
+          "name": "Nerdlegame",
+          "url": "https://www.google.com/search?q=Nerdlegame%20game"
+        }
+      }
+    },
+    {
+      "name": "starter:heardle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜\n\nhttps://www.spotify.com/heardle?x=1",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Heardle",
+          "url": "https://www.spotify.com/heardle"
+        },
+        "guess": {
+          "name": "Heardle",
+          "url": "https://www.spotify.com/heardle"
+        }
+      }
+    },
+    {
+      "name": "starter:flagle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I got today's Flagle in 2! 🇫🇷",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "starter:filler",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Puzzle #12 solved! 🎉",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "starter:todays",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Dordle",
+          "url": "https://www.google.com/search?q=Dordle%20game"
+        },
+        "guess": {
+          "name": "Dordle",
+          "url": "https://www.google.com/search?q=Dordle%20game"
+        }
+      }
+    },
+    {
+      "name": "starter:dated",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "starter:wwwLink",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spellcheck 42\n✅✅❌\nwww.spellcheck.com/today",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Spellcheck",
+          "url": "https://www.spellcheck.com/today"
+        },
+        "guess": {
+          "name": "Spellcheck",
+          "url": "https://www.spellcheck.com/today"
+        }
+      }
+    },
+    {
+      "name": "starter:longTitle",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "My Very Long Puzzle Name Here 3/6 🟩",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "starter:accented",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Pokédoku 120 9/9\n🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Pokédoku",
+          "url": "https://www.google.com/search?q=Pok%C3%A9doku%20game"
+        },
+        "guess": {
+          "name": "Pokédoku",
+          "url": "https://www.google.com/search?q=Pok%C3%A9doku%20game"
+        }
+      }
+    },
+    {
+      "name": "starter:unicodeSpace",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Tens #121 ✅",
+      "outcome": {
+        "kind": "add",
+        "game": "dailytens"
+      }
+    },
+    {
+      "name": "starter:plainUrl",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://example.com/whatever",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Whatever",
+          "url": "https://example.com/whatever"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "starter:words",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "hello world",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "starter:empty",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "",
+      "outcome": {
+        "kind": "toast",
+        "message": "Clipboard is empty. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "starter:blank",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "   \n  ",
+      "outcome": {
+        "kind": "toast",
+        "message": "Clipboard is empty. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "empty:wordle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        }
+      }
+    },
+    {
+      "name": "empty:wordleCRLF",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        }
+      }
+    },
+    {
+      "name": "empty:connections",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        },
+        "guess": {
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      }
+    },
+    {
+      "name": "empty:strands",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Strands",
+          "url": "https://www.nytimes.com/games/strands"
+        },
+        "guess": {
+          "name": "Strands",
+          "url": "https://www.nytimes.com/games/strands"
+        }
+      }
+    },
+    {
+      "name": "empty:mini",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!\nhttps://www.nytimes.com/badges/games/mini.html?d=2026-11-27&t=42&c=abc&smid=url-share",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        "guess": {
+          "name": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        }
+      }
+    },
+    {
+      "name": "empty:miniShort",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Mini 11/27 0:42 ⭐️",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        "guess": {
+          "name": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        }
+      }
+    },
+    {
+      "name": "empty:crossword",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!\nhttps://www.nytimes.com/badges/games/crossword.html?d=2026-11-27&t=754&smid=url-share",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        },
+        "guess": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        }
+      }
+    },
+    {
+      "name": "empty:spotle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        },
+        "guess": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        }
+      }
+    },
+    {
+      "name": "empty:spotleIo",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle.io #800 ⬜🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        },
+        "guess": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        }
+      }
+    },
+    {
+      "name": "empty:spotle801",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #801🎧\n\n⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        },
+        "guess": {
+          "name": "Spotle",
+          "url": "https://spotle.io/"
+        }
+      }
+    },
+    {
+      "name": "empty:dailyTens",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "DailyTens #120 🔟 7/10\nhttps://dailytens.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "DailyTens",
+          "url": "https://dailytens.com/"
+        },
+        "guess": {
+          "name": "DailyTens",
+          "url": "https://dailytens.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:songless",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Songless #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        "guess": {
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        }
+      }
+    },
+    {
+      "name": "empty:songlessLinkOnly",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "🎵 #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        "guess": {
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        }
+      }
+    },
+    {
+      "name": "empty:perceptle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Perceptle #42 - A (87)\nhttps://perceptle.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Perceptle",
+          "url": "https://perceptle.com/"
+        },
+        "guess": {
+          "name": "Perceptle",
+          "url": "https://perceptle.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:krillion",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Krillion #95 🦐 4/6\nkrillion.io",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Krillion",
+          "url": "https://krillion.io/"
+        },
+        "guess": {
+          "name": "Krillion",
+          "url": "https://krillion.io/"
+        }
+      }
+    },
+    {
+      "name": "empty:bandle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle\nhttps://bandle.app/",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Bandle",
+          "url": "https://bandle.app/"
+        },
+        "guess": {
+          "name": "Bandle",
+          "url": "https://bandle.app/"
+        }
+      }
+    },
+    {
+      "name": "empty:worldle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉\n\nhttps://worldle.teuteuf.fr",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        },
+        "guess": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        }
+      }
+    },
+    {
+      "name": "empty:quordle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\nm-w.com/games/quordle/\n⬜🟨⬜⬜🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Daily Quordle",
+          "url": "https://m-w.com/games/quordle/"
+        },
+        "guess": {
+          "name": "Daily Quordle",
+          "url": "https://m-w.com/games/quordle/"
+        }
+      }
+    },
+    {
+      "name": "empty:octordle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Daily Octordle",
+          "url": "https://www.google.com/search?q=Daily%20Octordle%20game"
+        },
+        "guess": {
+          "name": "Daily Octordle",
+          "url": "https://www.google.com/search?q=Daily%20Octordle%20game"
+        }
+      }
+    },
+    {
+      "name": "empty:waffle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3\nwafflegame.net",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Waffle",
+          "url": "https://wafflegame.net/"
+        },
+        "guess": {
+          "name": "Waffle",
+          "url": "https://wafflegame.net/"
+        }
+      }
+    },
+    {
+      "name": "empty:grid",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:\nhttps://www.immaculategrid.com/grid-300",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Immaculate Grid",
+          "url": "https://www.immaculategrid.com/"
+        },
+        "guess": {
+          "name": "Immaculate Grid",
+          "url": "https://www.immaculategrid.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:contexto",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Contexto",
+          "url": "https://contexto.me/"
+        },
+        "guess": {
+          "name": "Contexto",
+          "url": "https://contexto.me/"
+        }
+      }
+    },
+    {
+      "name": "empty:timeguessr",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩\nhttps://timeguessr.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "TimeGuessr",
+          "url": "https://timeguessr.com/"
+        },
+        "guess": {
+          "name": "TimeGuessr",
+          "url": "https://timeguessr.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:costcodle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅\nhttps://costcodle.com",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Costcodle",
+          "url": "https://costcodle.com/"
+        },
+        "guess": {
+          "name": "Costcodle",
+          "url": "https://costcodle.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:framed",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛\n\nhttps://framed.wtf",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Framed",
+          "url": "https://framed.wtf/"
+        },
+        "guess": {
+          "name": "Framed",
+          "url": "https://framed.wtf/"
+        }
+      }
+    },
+    {
+      "name": "empty:travle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#travle #600 +2\n🟩🟩🟧✅\nhttps://travle.earth",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Travle",
+          "url": "https://travle.earth/"
+        },
+        "guess": {
+          "name": "Travle",
+          "url": "https://travle.earth/"
+        }
+      }
+    },
+    {
+      "name": "empty:globle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\nhttps://globle-game.com\n#globle",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Globle",
+          "url": "https://globle-game.com/"
+        },
+        "guess": {
+          "name": "Globle",
+          "url": "https://globle-game.com/"
+        }
+      }
+    },
+    {
+      "name": "empty:pips",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Pips #100 Hard\n🟪 0:45",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Pips",
+          "url": "https://www.nytimes.com/games/pips"
+        },
+        "guess": {
+          "name": "Pips",
+          "url": "https://www.nytimes.com/games/pips"
+        }
+      }
+    },
+    {
+      "name": "empty:zip",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢\nlnkd.in/zip.",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Zip",
+          "url": "https://lnkd.in/zip"
+        },
+        "guess": {
+          "name": "Zip",
+          "url": "https://lnkd.in/zip"
+        }
+      }
+    },
+    {
+      "name": "empty:queens",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Queens #300\n0:45 👑\nlnkd.in/queens.",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Queens",
+          "url": "https://lnkd.in/queens"
+        },
+        "guess": {
+          "name": "Queens",
+          "url": "https://lnkd.in/queens"
+        }
+      }
+    },
+    {
+      "name": "empty:chainle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Chainle #12 🔗 3 links\nhttps://chainle.io",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Chainle",
+          "url": "https://chainle.io/"
+        },
+        "guess": {
+          "name": "Chainle",
+          "url": "https://chainle.io/"
+        }
+      }
+    },
+    {
+      "name": "empty:tradle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩\nPlay Today's Game: https://oec.world/en/tradle",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Tradle",
+          "url": "https://oec.world/en/tradle"
+        },
+        "guess": {
+          "name": "Tradle",
+          "url": "https://oec.world/en/tradle"
+        }
+      }
+    },
+    {
+      "name": "empty:nerdle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Nerdlegame",
+          "url": "https://www.google.com/search?q=Nerdlegame%20game"
+        },
+        "guess": {
+          "name": "Nerdlegame",
+          "url": "https://www.google.com/search?q=Nerdlegame%20game"
+        }
+      }
+    },
+    {
+      "name": "empty:heardle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜\n\nhttps://www.spotify.com/heardle?x=1",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Heardle",
+          "url": "https://www.spotify.com/heardle"
+        },
+        "guess": {
+          "name": "Heardle",
+          "url": "https://www.spotify.com/heardle"
+        }
+      }
+    },
+    {
+      "name": "empty:flagle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I got today's Flagle in 2! 🇫🇷",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:filler",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Puzzle #12 solved! 🎉",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:todays",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Dordle",
+          "url": "https://www.google.com/search?q=Dordle%20game"
+        },
+        "guess": {
+          "name": "Dordle",
+          "url": "https://www.google.com/search?q=Dordle%20game"
+        }
+      }
+    },
+    {
+      "name": "empty:dated",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:wwwLink",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spellcheck 42\n✅✅❌\nwww.spellcheck.com/today",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Spellcheck",
+          "url": "https://www.spellcheck.com/today"
+        },
+        "guess": {
+          "name": "Spellcheck",
+          "url": "https://www.spellcheck.com/today"
+        }
+      }
+    },
+    {
+      "name": "empty:longTitle",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "My Very Long Puzzle Name Here 3/6 🟩",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:accented",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Pokédoku 120 9/9\n🟩🟩🟩",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Pokédoku",
+          "url": "https://www.google.com/search?q=Pok%C3%A9doku%20game"
+        },
+        "guess": {
+          "name": "Pokédoku",
+          "url": "https://www.google.com/search?q=Pok%C3%A9doku%20game"
+        }
+      }
+    },
+    {
+      "name": "empty:unicodeSpace",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Daily Tens #121 ✅",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:plainUrl",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://example.com/whatever",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Whatever",
+          "url": "https://example.com/whatever"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "empty:words",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "hello world",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "empty:empty",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "",
+      "outcome": {
+        "kind": "toast",
+        "message": "Clipboard is empty. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "empty:blank",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "   \n  ",
+      "outcome": {
+        "kind": "toast",
+        "message": "Clipboard is empty. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "nyt:wordle",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
+      "outcome": {
+        "kind": "add",
+        "game": "gwordle"
+      }
+    },
+    {
+      "name": "nyt:bandle",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle\nhttps://bandle.app/",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Bandle",
+          "url": "https://bandle.app/"
+        },
+        "suggested": [
+          "gwordle"
+        ],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "nyt:connections",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
+      "outcome": {
+        "kind": "add",
+        "game": "gconn"
+      }
+    },
+    {
+      "name": "nyt:mini",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!\nhttps://www.nytimes.com/badges/games/mini.html?d=2026-11-27&t=42&c=abc&smid=url-share",
+      "outcome": {
+        "kind": "add",
+        "game": "nytmini"
+      }
+    },
+    {
+      "name": "nyt:crossword",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!\nhttps://www.nytimes.com/badges/games/crossword.html?d=2026-11-27&t=754&smid=url-share",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        },
+        "guess": {
+          "name": "Crossword",
+          "url": "https://www.nytimes.com/crosswords/game/daily"
+        }
+      }
+    },
+    {
+      "name": "nyt:worldle",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉\n\nhttps://worldle.teuteuf.fr",
+      "outcome": {
+        "kind": "addNew",
+        "entry": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        },
+        "guess": {
+          "name": "Worldle",
+          "url": "https://worldle.teuteuf.fr/"
+        }
+      }
+    },
+    {
+      "name": "two-games-named",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krillion",
+          "url": "https://krillion.io"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        },
+        {
+          "id": "gwordle",
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "id": "gconn",
+          "name": "Connections",
+          "url": "https://www.nytimes.com/games/connections"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Wordle and Connections today 🎉",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [
+          "gwordle",
+          "gconn"
+        ],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "combined",
+      "games": null,
+      "results": {
+        "spotle": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io",
+        "perceptle": "Perceptle #42 - A (87)\nhttps://perceptle.com"
+      },
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nPerceptle #42 - A (87)",
+      "outcome": {
+        "kind": "toast",
+        "message": "That's your combined message. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "already-added",
+      "games": null,
+      "results": {
+        "spotle": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io"
+      },
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "toast",
+        "message": "Already added. Tap Share in the next game first."
+      }
+    },
+    {
+      "name": "updated",
+      "games": null,
+      "results": {
+        "spotle": "Spotle #800🎧\n\n⬜⬜⬜🟩\n\nspotle.io"
+      },
+      "stale": [],
+      "lastOpened": null,
+      "text": "Spotle #801🎧\n\n⬜🟩\n\nspotle.io",
+      "outcome": {
+        "kind": "add",
+        "game": "spotle"
+      }
+    },
+    {
+      "name": "stale",
+      "games": null,
+      "results": {},
+      "stale": [
+        "Krillion #95 🦐 4/6\nkrillion.io"
+      ],
+      "lastOpened": null,
+      "text": "Krillion #95 🦐 4/6\nkrillion.io",
+      "outcome": {
+        "kind": "toast",
+        "message": "That's an old result. Tap Share in the game first."
+      }
+    },
+    {
+      "name": "opened",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": "krillion",
+      "text": "🦐 4/6",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [
+          "krillion"
+        ],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "opened-done",
+      "games": null,
+      "results": {
+        "krillion": "Krillion #95 🦐 4/6\nkrillion.io"
+      },
+      "stale": [],
+      "lastOpened": "krillion",
+      "text": "🦐 4/6",
+      "outcome": {
+        "kind": "pick",
+        "guess": null,
+        "suggested": [],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "opened-guess",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": "perceptle",
+      "text": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢\nlnkd.in/zip.",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Zip",
+          "url": "https://lnkd.in/zip"
+        },
+        "suggested": [
+          "perceptle"
+        ],
+        "newFirst": false
+      }
+    },
+    {
+      "name": "renamed",
+      "games": [
+        {
+          "id": "perceptle",
+          "name": "Perceptle",
+          "url": "https://perceptle.com"
+        },
+        {
+          "id": "dailytens",
+          "name": "Daily Tens",
+          "url": "https://dailytens.com"
+        },
+        {
+          "id": "songless",
+          "name": "Songless",
+          "url": "https://lessgames.com/songless"
+        },
+        {
+          "id": "spotle",
+          "name": "Spotle",
+          "url": "https://spotle.io"
+        },
+        {
+          "id": "krillion",
+          "name": "Krill",
+          "url": "https://krillion.io",
+          "alias": "Krillion"
+        },
+        {
+          "id": "nytmini",
+          "name": "NYT Mini",
+          "alias": "Mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        }
+      ],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "Krillion #95 🦐 4/6\nkrillion.io",
+      "outcome": {
+        "kind": "add",
+        "game": "krillion"
+      }
+    },
+    {
+      "name": "link-into-listed",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "🎵 #312\n🟥🟥🟩⬜⬜⬜\nhttps://lessgames.com/songless/312",
+      "outcome": {
+        "kind": "add",
+        "game": "songless"
+      }
+    }
+  ]
+}
