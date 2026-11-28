@@ -33,24 +33,6 @@
       "url": "https://www.nytimes.com/crosswords/game/mini"
     }
   ],
-  "messageGames": [
-    {
-      "id": "dailytens",
-      "name": "Daily Tens",
-      "url": "https://dailytens.com"
-    },
-    {
-      "id": "nytmini",
-      "name": "NYT Mini",
-      "alias": "Mini",
-      "url": "https://www.nytimes.com/crosswords/game/mini"
-    },
-    {
-      "id": "gmaptap",
-      "name": "Maptap",
-      "url": "https://maptap.gg/"
-    }
-  ],
   "texts": [
     {
       "name": "wordle",
@@ -65,12 +47,8 @@
       "looksLikeResult": true,
       "stripLinks": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nWordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
-        "NYT Mini\nWordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩",
-        "Maptap\nWordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Wordle 1,621 4/6\n\n⬛🟨⬛⬛⬛\n⬛⬛🟩🟨⬛\n🟩🟩🟩⬛⬛\n🟩🟩🟩🟩🟩"
     },
     {
       "name": "wordleCRLF",
@@ -82,12 +60,8 @@
       "looksLikeResult": true,
       "stripLinks": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nWordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
-        "NYT Mini\nWordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩",
-        "Maptap\nWordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Wordle 1,621 3/6\r\n\r\n🟩🟩🟩🟩🟩"
     },
     {
       "name": "connections",
@@ -102,12 +76,8 @@
       "looksLikeResult": true,
       "stripLinks": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nConnections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
-        "NYT Mini\nConnections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪",
-        "Maptap\nConnections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪"
-      ]
+      "nytSolved": null,
+      "inMessage": "Connections\nPuzzle #532\n🟨🟨🟨🟨\n🟩🟩🟩🟩\n🟦🟦🟦🟦\n🟪🟪🟪🟪"
     },
     {
       "name": "strands",
@@ -122,12 +92,8 @@
       "looksLikeResult": true,
       "stripLinks": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nStrands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
-        "NYT Mini\nStrands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵",
-        "Maptap\nStrands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵"
-      ]
+      "nytSolved": null,
+      "inMessage": "Strands #262\n“Hit the road”\n🔵🔵🟡🔵\n🔵🔵"
     },
     {
       "name": "mini",
@@ -144,12 +110,8 @@
       "mentioned": [
         "nytmini"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nI solved the 11/27/2026 New York Times Mini Crossword in 0:42!",
-        "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!",
-        "Maptap\nI solved the 11/27/2026 New York Times Mini Crossword in 0:42!"
-      ]
+      "nytSolved": null,
+      "inMessage": "I solved the 11/27/2026 New York Times Mini Crossword in 0:42!"
     },
     {
       "name": "miniShort",
@@ -166,12 +128,8 @@
       "mentioned": [
         "nytmini"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nMini 11/27 0:42 ⭐️",
-        "Mini 11/27 0:42 ⭐️",
-        "Maptap\nMini 11/27 0:42 ⭐️"
-      ]
+      "nytSolved": null,
+      "inMessage": "Mini 11/27 0:42 ⭐️"
     },
     {
       "name": "crossword",
@@ -186,12 +144,8 @@
       "looksLikeResult": true,
       "stripLinks": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nI solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!",
-        "NYT Mini\nI solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!",
-        "Maptap\nI solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!"
-      ]
+      "nytSolved": null,
+      "inMessage": "I solved the Friday 11/27/2026 New York Times Daily Crossword in 12:34!"
     },
     {
       "name": "spotle",
@@ -208,12 +162,8 @@
       "mentioned": [
         "spotle"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nSpotle #800🎧\n\n⬜⬜⬜🟩",
-        "NYT Mini\nSpotle #800🎧\n\n⬜⬜⬜🟩",
-        "Maptap\nSpotle #800🎧\n\n⬜⬜⬜🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Spotle #800🎧\n\n⬜⬜⬜🟩"
     },
     {
       "name": "spotleIo",
@@ -230,12 +180,8 @@
       "mentioned": [
         "spotle"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nSpotle.io #800 ⬜🟩",
-        "NYT Mini\nSpotle.io #800 ⬜🟩",
-        "Maptap\nSpotle.io #800 ⬜🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Spotle.io #800 ⬜🟩"
     },
     {
       "name": "spotle801",
@@ -252,12 +198,8 @@
       "mentioned": [
         "spotle"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nSpotle #801🎧\n\n⬜🟩",
-        "NYT Mini\nSpotle #801🎧\n\n⬜🟩",
-        "Maptap\nSpotle #801🎧\n\n⬜🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Spotle #801🎧\n\n⬜🟩"
     },
     {
       "name": "dailyTens",
@@ -274,12 +216,8 @@
       "mentioned": [
         "dailytens"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "DailyTens #120 🔟 7/10",
-        "NYT Mini\nDailyTens #120 🔟 7/10",
-        "Maptap\nDailyTens #120 🔟 7/10"
-      ]
+      "nytSolved": null,
+      "inMessage": "DailyTens #120 🔟 7/10"
     },
     {
       "name": "songless",
@@ -296,12 +234,8 @@
       "mentioned": [
         "songless"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nSongless #312\n🟥🟥🟩⬜⬜⬜",
-        "NYT Mini\nSongless #312\n🟥🟥🟩⬜⬜⬜",
-        "Maptap\nSongless #312\n🟥🟥🟩⬜⬜⬜"
-      ]
+      "nytSolved": null,
+      "inMessage": "Songless #312\n🟥🟥🟩⬜⬜⬜"
     },
     {
       "name": "songlessLinkOnly",
@@ -318,12 +252,8 @@
       "mentioned": [
         "songless"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n🎵 #312\n🟥🟥🟩⬜⬜⬜",
-        "NYT Mini\n🎵 #312\n🟥🟥🟩⬜⬜⬜",
-        "Maptap\n🎵 #312\n🟥🟥🟩⬜⬜⬜"
-      ]
+      "nytSolved": null,
+      "inMessage": "🎵 #312\n🟥🟥🟩⬜⬜⬜"
     },
     {
       "name": "perceptle",
@@ -340,12 +270,8 @@
       "mentioned": [
         "perceptle"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nPerceptle #42 - A (87)",
-        "NYT Mini\nPerceptle #42 - A (87)",
-        "Maptap\nPerceptle #42 - A (87)"
-      ]
+      "nytSolved": null,
+      "inMessage": "Perceptle #42 - A (87)"
     },
     {
       "name": "krillion",
@@ -362,12 +288,8 @@
       "mentioned": [
         "krillion"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nKrillion #95 🦐 4/6",
-        "NYT Mini\nKrillion #95 🦐 4/6",
-        "Maptap\nKrillion #95 🦐 4/6"
-      ]
+      "nytSolved": null,
+      "inMessage": "Krillion #95 🦐 4/6"
     },
     {
       "name": "bandle",
@@ -382,12 +304,8 @@
       "looksLikeResult": true,
       "stripLinks": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nBandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle",
-        "NYT Mini\nBandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle",
-        "Maptap\nBandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle"
-      ]
+      "nytSolved": null,
+      "inMessage": "Bandle #500 3/6\n⬛🟥🟩⬜⬜⬜\n#Bandle #Heardle #Wordle"
     },
     {
       "name": "worldle",
@@ -402,12 +320,8 @@
       "looksLikeResult": true,
       "stripLinks": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉",
-        "NYT Mini\n#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉",
-        "Maptap\n#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉"
-      ]
+      "nytSolved": null,
+      "inMessage": "#Worldle #800 (27.11.2026) 3/6 (100%)\n🟩🟩🟩🟩🟨⬅️\n🟩🟩🟩🟩🟩🎉"
     },
     {
       "name": "quordle",
@@ -422,12 +336,8 @@
       "looksLikeResult": true,
       "stripLinks": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nDaily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩",
-        "NYT Mini\nDaily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩",
-        "Maptap\nDaily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Daily Quordle 800\n4️⃣5️⃣\n6️⃣7️⃣\n⬜🟨⬜⬜🟩"
     },
     {
       "name": "octordle",
@@ -442,12 +352,8 @@
       "looksLikeResult": true,
       "stripLinks": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nDaily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
-        "NYT Mini\nDaily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61",
-        "Maptap\nDaily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61"
-      ]
+      "nytSolved": null,
+      "inMessage": "Daily Octordle #900\n8️⃣4️⃣\n🕚🔟\nScore: 61"
     },
     {
       "name": "waffle",
@@ -462,12 +368,8 @@
       "looksLikeResult": true,
       "stripLinks": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3",
-        "NYT Mini\n#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3",
-        "Maptap\n#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3"
-      ]
+      "nytSolved": null,
+      "inMessage": "#waffle800 4/5\n\n🟩🟩🟩🟩🟩\n🟩⭐️🟩⭐️🟩\n\n🔥 streak: 3"
     },
     {
       "name": "grid",
@@ -482,12 +384,8 @@
       "looksLikeResult": true,
       "stripLinks": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nImmaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:",
-        "NYT Mini\nImmaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:",
-        "Maptap\nImmaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:"
-      ]
+      "nytSolved": null,
+      "inMessage": "Immaculate Grid 300 8/9:\nRarity: 432\n⬜🟩🟩\n🟩🟩🟩\n🟩🟩🟩\nPlay at:"
     },
     {
       "name": "contexto",
@@ -502,12 +400,8 @@
       "looksLikeResult": true,
       "stripLinks": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nI played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
-        "NYT Mini\nI played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21",
-        "Maptap\nI played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21"
-      ]
+      "nytSolved": null,
+      "inMessage": "I played contexto.me #500 and got it in 32 guesses.\n\n🟩 3\n🟨 8\n🟥 21"
     },
     {
       "name": "timeguessr",
@@ -522,12 +416,8 @@
       "looksLikeResult": true,
       "stripLinks": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nTimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩",
-        "NYT Mini\nTimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩",
-        "Maptap\nTimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "TimeGuessr #500 39,450/50,000\n🌎🟩🟩⬛ 📅🟩🟩🟨\n🌎🟩⬛⬛ 📅🟩🟩🟩"
     },
     {
       "name": "costcodle",
@@ -542,12 +432,8 @@
       "looksLikeResult": true,
       "stripLinks": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nCostcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅",
-        "NYT Mini\nCostcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅",
-        "Maptap\nCostcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅"
-      ]
+      "nytSolved": null,
+      "inMessage": "Costcodle #300 3/6\n⬆️🟥\n⬇️🟨\n✅"
     },
     {
       "name": "framed",
@@ -562,12 +448,8 @@
       "looksLikeResult": true,
       "stripLinks": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nFramed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛",
-        "NYT Mini\nFramed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛",
-        "Maptap\nFramed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛"
-      ]
+      "nytSolved": null,
+      "inMessage": "Framed #900\n🎥 🟥 🟥 🟩 ⬛ ⬛ ⬛"
     },
     {
       "name": "travle",
@@ -582,12 +464,8 @@
       "looksLikeResult": true,
       "stripLinks": "#travle #600 +2\n🟩🟩🟧✅",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n#travle #600 +2\n🟩🟩🟧✅",
-        "NYT Mini\n#travle #600 +2\n🟩🟩🟧✅",
-        "Maptap\n#travle #600 +2\n🟩🟩🟧✅"
-      ]
+      "nytSolved": null,
+      "inMessage": "#travle #600 +2\n🟩🟩🟧✅"
     },
     {
       "name": "globle",
@@ -602,12 +480,8 @@
       "looksLikeResult": true,
       "stripLinks": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle",
-        "NYT Mini\n🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle",
-        "Maptap\n🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle"
-      ]
+      "nytSolved": null,
+      "inMessage": "🌎 Nov 27, 2026 🌍\n🔥 3 | Avg. Guesses: 7.5\n🟧🟥🟩 = 3\n\n#globle"
     },
     {
       "name": "pips",
@@ -622,12 +496,8 @@
       "looksLikeResult": true,
       "stripLinks": "Pips #100 Hard\n🟪 0:45",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nPips #100 Hard\n🟪 0:45",
-        "NYT Mini\nPips #100 Hard\n🟪 0:45",
-        "Maptap\nPips #100 Hard\n🟪 0:45"
-      ]
+      "nytSolved": null,
+      "inMessage": "Pips #100 Hard\n🟪 0:45"
     },
     {
       "name": "zip",
@@ -642,12 +512,8 @@
       "looksLikeResult": true,
       "stripLinks": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nZip #120 | 0:23 🏁\nWith no backtracks 🟢",
-        "NYT Mini\nZip #120 | 0:23 🏁\nWith no backtracks 🟢",
-        "Maptap\nZip #120 | 0:23 🏁\nWith no backtracks 🟢"
-      ]
+      "nytSolved": null,
+      "inMessage": "Zip #120 | 0:23 🏁\nWith no backtracks 🟢"
     },
     {
       "name": "queens",
@@ -662,12 +528,8 @@
       "looksLikeResult": true,
       "stripLinks": "Queens #300\n0:45 👑",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nQueens #300\n0:45 👑",
-        "NYT Mini\nQueens #300\n0:45 👑",
-        "Maptap\nQueens #300\n0:45 👑"
-      ]
+      "nytSolved": null,
+      "inMessage": "Queens #300\n0:45 👑"
     },
     {
       "name": "chainle",
@@ -682,12 +544,8 @@
       "looksLikeResult": true,
       "stripLinks": "Chainle #12 🔗 3 links",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nChainle #12 🔗 3 links",
-        "NYT Mini\nChainle #12 🔗 3 links",
-        "Maptap\nChainle #12 🔗 3 links"
-      ]
+      "nytSolved": null,
+      "inMessage": "Chainle #12 🔗 3 links"
     },
     {
       "name": "tradle",
@@ -702,12 +560,8 @@
       "looksLikeResult": true,
       "stripLinks": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩",
-        "NYT Mini\n#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩",
-        "Maptap\n#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "#Tradle #900 2/6\n🟩🟩🟩🟩🟨\n🟩🟩🟩🟩🟩"
     },
     {
       "name": "nerdle",
@@ -722,12 +576,8 @@
       "looksLikeResult": true,
       "stripLinks": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nnerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
-        "NYT Mini\nnerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩",
-        "Maptap\nnerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "nerdlegame 900 3/6\n\n🟪🟩⬛🟪⬛🟩🟪⬛\n🟩🟩🟩🟩🟩🟩🟩🟩"
     },
     {
       "name": "heardle",
@@ -742,12 +592,8 @@
       "looksLikeResult": true,
       "stripLinks": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜",
-        "NYT Mini\n#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜",
-        "Maptap\n#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜"
-      ]
+      "nytSolved": null,
+      "inMessage": "#Heardle #500\n\n🔉🟥⬜⬜⬜⬜⬜"
     },
     {
       "name": "flagle",
@@ -759,12 +605,8 @@
       "looksLikeResult": true,
       "stripLinks": "I got today's Flagle in 2! 🇫🇷",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nI got today's Flagle in 2! 🇫🇷",
-        "NYT Mini\nI got today's Flagle in 2! 🇫🇷",
-        "Maptap\nI got today's Flagle in 2! 🇫🇷"
-      ]
+      "nytSolved": null,
+      "inMessage": "I got today's Flagle in 2! 🇫🇷"
     },
     {
       "name": "filler",
@@ -776,12 +618,8 @@
       "looksLikeResult": true,
       "stripLinks": "Puzzle #12 solved! 🎉",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nPuzzle #12 solved! 🎉",
-        "NYT Mini\nPuzzle #12 solved! 🎉",
-        "Maptap\nPuzzle #12 solved! 🎉"
-      ]
+      "nytSolved": null,
+      "inMessage": "Puzzle #12 solved! 🎉"
     },
     {
       "name": "todays",
@@ -796,12 +634,8 @@
       "looksLikeResult": true,
       "stripLinks": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nToday's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
-        "NYT Mini\nToday's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩",
-        "Maptap\nToday's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Today's Dordle 3&5/7\n🟩🟩🟩🟩🟩 🟩🟩🟩🟩🟩"
     },
     {
       "name": "dated",
@@ -813,12 +647,8 @@
       "looksLikeResult": true,
       "stripLinks": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nNov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
-        "NYT Mini\nNov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2",
-        "Maptap\nNov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2"
-      ]
+      "nytSolved": null,
+      "inMessage": "Nov 27 Bracket City 🏙️\nRank: Tourist\n❌ wrong guesses: 2"
     },
     {
       "name": "wwwLink",
@@ -833,12 +663,8 @@
       "looksLikeResult": true,
       "stripLinks": "Spellcheck 42\n✅✅❌",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nSpellcheck 42\n✅✅❌",
-        "NYT Mini\nSpellcheck 42\n✅✅❌",
-        "Maptap\nSpellcheck 42\n✅✅❌"
-      ]
+      "nytSolved": null,
+      "inMessage": "Spellcheck 42\n✅✅❌"
     },
     {
       "name": "longTitle",
@@ -850,12 +676,8 @@
       "looksLikeResult": true,
       "stripLinks": "My Very Long Puzzle Name Here 3/6 🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nMy Very Long Puzzle Name Here 3/6 🟩",
-        "NYT Mini\nMy Very Long Puzzle Name Here 3/6 🟩",
-        "Maptap\nMy Very Long Puzzle Name Here 3/6 🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "My Very Long Puzzle Name Here 3/6 🟩"
     },
     {
       "name": "accented",
@@ -870,12 +692,8 @@
       "looksLikeResult": true,
       "stripLinks": "Pokédoku 120 9/9\n🟩🟩🟩",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nPokédoku 120 9/9\n🟩🟩🟩",
-        "NYT Mini\nPokédoku 120 9/9\n🟩🟩🟩",
-        "Maptap\nPokédoku 120 9/9\n🟩🟩🟩"
-      ]
+      "nytSolved": null,
+      "inMessage": "Pokédoku 120 9/9\n🟩🟩🟩"
     },
     {
       "name": "unicodeSpace",
@@ -889,12 +707,8 @@
       "mentioned": [
         "dailytens"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens #121 ✅",
-        "NYT Mini\nDaily Tens #121 ✅",
-        "Maptap\nDaily Tens #121 ✅"
-      ]
+      "nytSolved": null,
+      "inMessage": "Daily Tens #121 ✅"
     },
     {
       "name": "plainUrl",
@@ -909,12 +723,8 @@
       "looksLikeResult": false,
       "stripLinks": "https://example.com/whatever",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nhttps://example.com/whatever",
-        "NYT Mini\nhttps://example.com/whatever",
-        "Maptap\nhttps://example.com/whatever"
-      ]
+      "nytSolved": null,
+      "inMessage": "https://example.com/whatever"
     },
     {
       "name": "maptap",
@@ -929,12 +739,8 @@
       "looksLikeResult": true,
       "stripLinks": "November 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nNovember 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871",
-        "NYT Mini\nNovember 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871",
-        "Maptap\nNovember 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871"
-      ]
+      "nytSolved": null,
+      "inMessage": "November 27\n93🏆 67🙂 87🎓 88🎉 91👑\nFinal score: 871"
     },
     {
       "name": "miniShared",
@@ -951,12 +757,8 @@
       "mentioned": [
         "nytmini"
       ],
-      "sharedTime": "4:35",
-      "inMessage": [
-        "Daily Tens 4:35",
-        "NYT Mini 4:35",
-        "Maptap 4:35"
-      ]
+      "nytSolved": "I solved the 11/27/2026 New York Times Mini Crossword in 4:35!",
+      "inMessage": "I solved the 11/27/2026 New York Times Mini Crossword in 4:35!"
     },
     {
       "name": "miniSharedSpaced",
@@ -973,12 +775,8 @@
       "mentioned": [
         "nytmini"
       ],
-      "sharedTime": "0:05",
-      "inMessage": [
-        "Daily Tens 0:05",
-        "NYT Mini 0:05",
-        "Maptap 0:05"
-      ]
+      "nytSolved": "I solved the 11/27/2026 New York Times Mini Crossword in 0:05!",
+      "inMessage": "I solved the 11/27/2026 New York Times Mini Crossword in 0:05!"
     },
     {
       "name": "crosswordShared",
@@ -993,12 +791,60 @@
       "looksLikeResult": false,
       "stripLinks": "https://nytimes.com/shared/v2/daily-xwd.html?t=3725&d=2026-11-27",
       "mentioned": [],
-      "sharedTime": "1:02:05",
-      "inMessage": [
-        "Daily Tens 1:02:05",
-        "NYT Mini 1:02:05",
-        "Maptap 1:02:05"
-      ]
+      "nytSolved": "I solved the 11/27/2026 New York Times Daily Crossword in 1:02:05!",
+      "inMessage": "I solved the 11/27/2026 New York Times Daily Crossword in 1:02:05!"
+    },
+    {
+      "name": "miniSharedNoDate",
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?t=31",
+      "headLine": "",
+      "findLink": "https://www.nytimes.com/shared",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Shared",
+        "url": "https://www.nytimes.com/shared"
+      },
+      "looksLikeResult": false,
+      "stripLinks": "https://www.nytimes.com/shared/v2/mini-xwd.html?t=31",
+      "mentioned": [
+        "nytmini"
+      ],
+      "nytSolved": "I solved the New York Times Mini Crossword in 0:31!",
+      "inMessage": "I solved the New York Times Mini Crossword in 0:31!"
+    },
+    {
+      "name": "miniSharedOddDate",
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-1-05&t=31",
+      "headLine": "",
+      "findLink": "https://www.nytimes.com/shared",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Shared",
+        "url": "https://www.nytimes.com/shared"
+      },
+      "looksLikeResult": false,
+      "stripLinks": "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-1-05&t=31",
+      "mentioned": [
+        "nytmini"
+      ],
+      "nytSolved": "I solved the 1/5/2026 New York Times Mini Crossword in 0:31!",
+      "inMessage": "I solved the 1/5/2026 New York Times Mini Crossword in 0:31!"
+    },
+    {
+      "name": "sharedNotCrossword",
+      "text": "https://www.nytimes.com/games/wordle/index.html?t=31",
+      "headLine": "",
+      "findLink": "https://www.nytimes.com/games/wordle/index.html",
+      "titleOf": null,
+      "guessGame": {
+        "name": "Wordle",
+        "url": "https://www.nytimes.com/games/wordle/index.html"
+      },
+      "looksLikeResult": false,
+      "stripLinks": "https://www.nytimes.com/games/wordle/index.html?t=31",
+      "mentioned": [],
+      "nytSolved": null,
+      "inMessage": "https://www.nytimes.com/games/wordle/index.html?t=31"
     },
     {
       "name": "sharedNoTime",
@@ -1015,12 +861,8 @@
       "mentioned": [
         "nytmini"
       ],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nhttps://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t=",
-        "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t=",
-        "Maptap\nhttps://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t="
-      ]
+      "nytSolved": null,
+      "inMessage": "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-11-27&t="
     },
     {
       "name": "sharedNotNyt",
@@ -1035,12 +877,8 @@
       "looksLikeResult": false,
       "stripLinks": "https://example.com/x?t=275",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nhttps://example.com/x?t=275",
-        "NYT Mini\nhttps://example.com/x?t=275",
-        "Maptap\nhttps://example.com/x?t=275"
-      ]
+      "nytSolved": null,
+      "inMessage": "https://example.com/x?t=275"
     },
     {
       "name": "words",
@@ -1052,12 +890,8 @@
       "looksLikeResult": false,
       "stripLinks": "hello world",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\nhello world",
-        "NYT Mini\nhello world",
-        "Maptap\nhello world"
-      ]
+      "nytSolved": null,
+      "inMessage": "hello world"
     },
     {
       "name": "empty",
@@ -1069,12 +903,8 @@
       "looksLikeResult": false,
       "stripLinks": "",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n",
-        "NYT Mini\n",
-        "Maptap\n"
-      ]
+      "nytSolved": null,
+      "inMessage": ""
     },
     {
       "name": "blank",
@@ -1086,12 +916,8 @@
       "looksLikeResult": false,
       "stripLinks": "   \n  ",
       "mentioned": [],
-      "sharedTime": null,
-      "inMessage": [
-        "Daily Tens\n   \n  ",
-        "NYT Mini\n   \n  ",
-        "Maptap\n   \n  "
-      ]
+      "nytSolved": null,
+      "inMessage": "   \n  "
     }
   ],
   "urls": [
@@ -2047,6 +1873,61 @@
       }
     },
     {
+      "name": "starter:miniSharedNoDate",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Shared",
+          "url": "https://www.nytimes.com/shared"
+        },
+        "suggested": [
+          "nytmini"
+        ],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "starter:miniSharedOddDate",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-1-05&t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Shared",
+          "url": "https://www.nytimes.com/shared"
+        },
+        "suggested": [
+          "nytmini"
+        ],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "starter:sharedNotCrossword",
+      "games": null,
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/games/wordle/index.html?t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
       "name": "starter:sharedNoTime",
       "games": null,
       "results": {},
@@ -2975,6 +2856,57 @@
         "guess": {
           "name": "Shared",
           "url": "https://nytimes.com/shared"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "empty:miniSharedNoDate",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Shared",
+          "url": "https://www.nytimes.com/shared"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "empty:miniSharedOddDate",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/shared/v2/mini-xwd.html?d=2026-1-05&t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Shared",
+          "url": "https://www.nytimes.com/shared"
+        },
+        "suggested": [],
+        "newFirst": true
+      }
+    },
+    {
+      "name": "empty:sharedNotCrossword",
+      "games": [],
+      "results": {},
+      "stale": [],
+      "lastOpened": null,
+      "text": "https://www.nytimes.com/games/wordle/index.html?t=31",
+      "outcome": {
+        "kind": "pick",
+        "guess": {
+          "name": "Wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
         },
         "suggested": [],
         "newFirst": true
