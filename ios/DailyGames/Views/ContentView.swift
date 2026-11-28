@@ -9,6 +9,8 @@ struct ContentView: View {
 
     @State private var editMode = EditMode.inactive
     @State private var playing: Game?
+    /// A game that opened in its own app.
+    @State private var away: String?
     /// A result caught while a game was open, handled once its browser has closed.
     @State private var caught: String?
     @State private var pick: Pick?
@@ -83,7 +85,10 @@ struct ContentView: View {
             if toast?.id == shown.id { withAnimation { toast = nil } }
         }
         .onChange(of: scenePhase) { _, phase in
-            if phase == .active { store.checkDay() }
+            if phase == .active {
+                store.checkDay()
+                cameBack()
+            }
         }
         .onReceive(NotificationCenter.default.publisher(for: .NSCalendarDayChanged)) { _ in
             store.checkDay()
@@ -272,10 +277,26 @@ struct ContentView: View {
 
     // MARK: Actions
 
+    /// Games with their own app (like the NYT's) open there, as they do from the website: the app's Share gives
+    /// the full result ("I solved the … Mini Crossword in 4:35!"), where its web page shares only a link. Other
+    /// games open here.
     private func play(_ game: Game) {
         store.lastOpened = game.id
         caught = nil
-        playing = game
+        guard let url = URL(string: game.url) else {
+            playing = game
+            return
+        }
+        UIApplication.shared.open(url, options: [.universalLinksOnly: true]) { opened in
+            if opened { away = game.id } else { playing = game }
+        }
+    }
+
+    /// Back from a game's own app: nudge Paste if its result isn't in yet.
+    private func cameBack() {
+        guard let id = away else { return }
+        away = nil
+        if store.day.results[id] == nil { nudges += 1 }
     }
 
     /// Back from a game: add the result it shared, or nudge Paste if there wasn't one.
