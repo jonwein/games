@@ -215,28 +215,4 @@ enum Matching {
         let cleaned = JS.trim(extraBlankLines.replaceAll(lines.joined(separator: "\n"), with: "\n\n"))
         return cleaned.isEmpty ? text : cleaned
     }
-
-    private static let loneLink = Pattern("^https?://" + JS.nonSpace + #"+\z"#, ignoreCase: true)
-    private static let seconds = Pattern(#"^[0-9]{1,6}\z"#)
-
-    /// NYT's Mini and Crossword share just a link, with the solve time in seconds ("…?d=2026-11-27&t=275"), which
-    /// reads as "4:35".
-    static func sharedTime(_ text: String) -> String? {
-        let href = JS.trim(text)
-        guard loneLink.test(href), let u = WebLink(href), u.site == "nytimes.com",
-              let t = u.query("t"), seconds.test(t), let s = Int(t)
-        else { return nil }
-        let pad = { (n: Int) in n < 10 ? "0\(n)" : "\(n)" }
-        let h = s / 3600
-        let m = s / 60 % 60
-        return h > 0 ? "\(h):\(pad(m)):\(pad(s % 60))" : "\(m):\(pad(s % 60))"
-    }
-
-    /// A result as it goes in the message: without links, and naming its game. Some results only name it in a
-    /// link ("www.maptap.gg November 27" would be left as "November 27"). NYT's links read as "NYT Mini 4:35".
-    static func inMessage(_ game: Game, _ text: String) -> String {
-        if let time = sharedTime(text) { return "\(game.name) \(time)" }
-        let bare = stripLinks(text)
-        return mentions(game, bare) ? bare : game.name + "\n" + bare
-    }
 }

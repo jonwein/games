@@ -135,11 +135,6 @@ struct WebLink {
         set { parts.percentEncodedPath = newValue.isEmpty ? "/" : newValue }
     }
 
-    /// The first value for a query parameter, like `URLSearchParams.get`.
-    func query(_ name: String) -> String? {
-        parts.queryItems?.first { $0.name == name }.map { $0.value ?? "" }
-    }
-
     mutating func removeQueryAndFragment() {
         parts.percentEncodedQuery = nil
         parts.percentEncodedFragment = nil
