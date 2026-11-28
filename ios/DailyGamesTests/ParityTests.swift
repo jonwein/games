@@ -17,8 +17,8 @@ struct ParityTests {
             let looksLikeResult: Bool
             let stripLinks: String
             let mentioned: [String]
-            let nytSolved: String?
-            let inMessage: String
+            let sharedTime: String?
+            let inMessage: [String]
         }
 
         struct Link: Decodable {
@@ -54,6 +54,7 @@ struct ParityTests {
         }
 
         let defaults: [Game]
+        let messageGames: [Game]
         let texts: [Text]
         let urls: [Link]
         let matchers: [Matcher]
@@ -83,8 +84,8 @@ struct ParityTests {
             #expect(Matching.looksLikeResult(t.text) == t.looksLikeResult, c)
             #expect(Matching.stripLinks(t.text) == t.stripLinks, c)
             #expect(Matching.mentioned(t.text, in: fixture.defaults).map(\.id) == t.mentioned, c)
-            #expect(Matching.nytSolved(t.text) == t.nytSolved, c)
-            #expect(Matching.inMessage(t.text) == t.inMessage, c)
+            #expect(Matching.sharedTime(t.text) == t.sharedTime, c)
+            #expect(fixture.messageGames.map { Matching.inMessage($0, t.text) } == t.inMessage, c)
         }
     }
 

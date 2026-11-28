@@ -119,7 +119,7 @@ final class Store {
 
     /// Everything played today, in list order, as one message.
     var message: String {
-        games.compactMap { day.results[$0.id] }.map(Matching.inMessage).joined(separator: "\n\n")
+        games.compactMap { g in day.results[g.id].map { Matching.inMessage(g, $0) } }.joined(separator: "\n\n")
     }
 
     func clearResult(_ game: Game) {

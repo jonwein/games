@@ -102,7 +102,7 @@ struct GameBrowser: View {
     private func handle(_ capture: GamePage.Capture) {
         guard !finished else { return }
         // NYT's Mini shares only a link, with the time in it.
-        if Matching.looksLikeResult(capture.text) || Matching.nytSolved(capture.text) != nil {
+        if Matching.looksLikeResult(capture.text) || Matching.sharedTime(capture.text) != nil {
             finished = true
             onResult(capture.text)
             close()
